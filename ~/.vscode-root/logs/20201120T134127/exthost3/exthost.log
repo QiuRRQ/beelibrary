@@ -1,0 +1,416 @@
+[2020-11-20 13:41:37.041] [exthost] [info] extension host started
+[2020-11-20 13:41:37.052] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2020-11-20 13:41:37.052] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-11-20 13:41:37.057] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-11-20 13:41:37.057] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-11-20 13:41:37.059] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-11-20 13:41:37.059] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-11-20 13:41:37.066] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-20 13:41:37.066] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/git/dist/main
+[2020-11-20 13:41:37.075] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-11-20 13:41:37.075] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-11-20 13:41:37.076] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-11-20 13:41:37.076] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-11-20 13:41:37.105] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-20 13:41:37.105] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-11-20 13:41:37.122] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2020-11-20 13:41:37.122] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-11-20 13:41:37.164] [exthost] [info] eager extensions activated
+[2020-11-20 13:41:37.178] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2020-11-20 13:41:37.179] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-11-20 13:41:54.402] [exthost] [info] extension host started
+[2020-11-20 13:41:54.471] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2020-11-20 13:41:54.471] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-11-20 13:41:54.479] [exthost] [info] ExtensionService#_doActivateExtension golang.go {"startup":false,"extensionId":{"value":"golang.go","_lower":"golang.go"},"activationEvent":"onLanguage:go"}
+[2020-11-20 13:41:54.479] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js
+[2020-11-20 13:41:54.519] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-11-20 13:41:54.519] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-11-20 13:41:54.520] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-11-20 13:41:54.521] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-11-20 13:41:54.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-20 13:41:54.527] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/git/dist/main
+[2020-11-20 13:41:54.536] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-11-20 13:41:54.537] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-11-20 13:41:54.538] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-11-20 13:41:54.538] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-11-20 13:41:54.644] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-20 13:41:54.644] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-11-20 13:41:54.670] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2020-11-20 13:41:54.671] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-11-20 13:41:54.711] [exthost] [info] eager extensions activated
+[2020-11-20 13:41:54.745] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2020-11-20 13:41:54.746] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-11-20 13:43:41.887] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:43:41.907] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:45:57.688] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:45:57.693] [exthost] [error] Error: Illegal argument: range
+	at Object.t.illegalArgument (/snap/code/50/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new ae (/snap/code/50/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:531:110)
+	at new ae (/snap/code/50/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at new ProtocolDocumentLink (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:49420:9)
+	at asDocumentLink (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:78637:20)
+	at Array.map (<anonymous>)
+	at asDocumentLinks (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:78650:22)
+[2020-11-20 13:48:39.781] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:48:39.782] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:20.866] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:50:20.867] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:31.517] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:50:31.518] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:32.017] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:50:32.018] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:33.847] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:50:33.847] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:35.646] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:50:35.646] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:52.266] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:50:52.267] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:52.528] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:50:52.528] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:52.806] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:50:52.806] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:53.198] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:50:53.199] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:52:07.178] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:52:07.178] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:52:13.169] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:52:13.169] [exthost] [error] Canceled: Canceled
+	at LanguageClient.makeCancelError (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13142:24)
+	at LanguageClient.handleFailedRequest (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13132:28)
+	at /root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:11650:39
+[2020-11-20 13:52:34.257] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:52:34.257] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:53:42.658] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:53:42.658] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:54:17.652] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:54:17.652] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:54:17.752] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:54:17.752] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:54:54.335] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:54:54.335] [exthost] [error] Error: no object found for ident BorrwC: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:54:54.457] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:54:54.457] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:55:08.620] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:55:08.620] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:58:35.373] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:58:35.374] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:36.433] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:59:36.433] [exthost] [error] Error: no object found for ident data: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:48.711] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:59:48.711] [exthost] [error] Error: no object found for ident data: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:49.007] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:59:49.007] [exthost] [error] Error: no object found for ident data: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:52.707] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:59:52.707] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:52.884] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:59:52.885] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:57.961] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:59:57.961] [exthost] [error] Error: no object found for ident data: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:58.395] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:59:58.395] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:58.494] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:59:58.494] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:59.652] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 13:59:59.652] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:00:43.126] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:00:43.126] [exthost] [error] Canceled: Canceled
+	at LanguageClient.makeCancelError (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13142:24)
+	at LanguageClient.handleFailedRequest (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13132:28)
+	at /root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:79308:39
+[2020-11-20 14:00:43.127] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:00:43.127] [exthost] [error] Canceled: Canceled
+	at LanguageClient.makeCancelError (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13142:24)
+	at LanguageClient.handleFailedRequest (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13132:28)
+	at /root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:11814:39
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:59:5)
+	at processImmediate (internal/timers.js:412:9)
+[2020-11-20 14:00:45.926] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:00:45.926] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:00:47.900] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:00:47.900] [exthost] [error] Error: no object found for ident _: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:03:43.805] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:03:43.805] [exthost] [error] Error: 28:89: expected ';', found ','
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:03:49.121] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:03:49.121] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:04:43.753] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:04:43.753] [exthost] [error] Canceled: Canceled
+	at LanguageClient.makeCancelError (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13142:24)
+	at LanguageClient.handleFailedRequest (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13132:28)
+	at /root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:11650:39
+[2020-11-20 14:07:53.211] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:07:53.211] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:09:02.594] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:09:02.594] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:09:02.921] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:09:02.922] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:09:03.122] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:09:03.123] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:09:08.688] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:09:08.688] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:12:32.285] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:12:32.285] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:20:03.157] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:20:03.157] [exthost] [error] Error: no object found for ident GetBooksByID: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:22:57.833] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:22:57.833] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:23:22.541] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:23:22.541] [exthost] [error] Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:23:50.409] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:23:50.410] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:47.411] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:27:47.411] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:47.510] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:27:47.512] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:53.481] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:27:53.481] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:53.922] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:27:53.922] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:54.023] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:27:54.023] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:55.211] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:27:55.211] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:55.417] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:27:55.417] [exthost] [error] Error: no object found for ident GetBookByID: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:56.174] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:27:56.174] [exthost] [error] Error: no object found for ident GetBookByID: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:05.627] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:38:05.627] [exthost] [error] Error: no object found for ident BorrowC: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:05.719] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:38:05.719] [exthost] [error] Error: no object found for ident BorrowDetail: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:05.819] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:38:05.819] [exthost] [error] Error: no object found for ident BorrowDetail: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:06.740] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:38:06.740] [exthost] [error] Error: no object found for ident GetBookByID: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:09.401] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:38:09.401] [exthost] [error] Error: no object found for ident GetBookByID: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:17.219] [exthost] [error] [golang.go] provider FAILED
+[2020-11-20 14:38:17.219] [exthost] [error] Canceled: Canceled
+	at LanguageClient.makeCancelError (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13142:24)
+	at LanguageClient.handleFailedRequest (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:13132:28)
+	at /root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:11650:39
+[2020-11-20 14:40:45.995] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 350

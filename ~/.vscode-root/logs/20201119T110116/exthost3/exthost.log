@@ -1,0 +1,34 @@
+[2020-11-19 11:52:11.413] [exthost] [info] extension host started
+[2020-11-19 11:52:11.427] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2020-11-19 11:52:11.427] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-11-19 11:52:11.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-11-19 11:52:11.434] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-11-19 11:52:11.435] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-11-19 11:52:11.435] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-11-19 11:52:11.442] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-19 11:52:11.442] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/git/dist/main
+[2020-11-19 11:52:11.451] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-11-19 11:52:11.451] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-11-19 11:52:11.452] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-11-19 11:52:11.452] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-11-19 11:52:11.509] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-11-19 11:52:11.509] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-11-19 11:52:11.534] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2020-11-19 11:52:11.534] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-11-19 11:52:11.602] [exthost] [info] ExtensionService#_doActivateExtension golang.go {"startup":true,"extensionId":{"value":"golang.go","_lower":"golang.go"},"activationEvent":"workspaceContains:**/*.go"}
+[2020-11-19 11:52:11.602] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js
+[2020-11-19 11:52:11.635] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2020-11-19 11:52:11.635] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/50/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-11-19 11:52:11.643] [exthost] [info] eager extensions activated
+[2020-11-19 11:52:42.946] [exthost] [error] [golang.go] provider FAILED
+[2020-11-19 11:52:42.956] [exthost] [error] Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-19 11:54:13.628] [exthost] [error] [golang.go] provider FAILED
+[2020-11-19 11:54:13.628] [exthost] [error] Error: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)

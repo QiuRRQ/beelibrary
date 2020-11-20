@@ -1,0 +1,209 @@
+[2020-11-20 13:43:41.910] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:45:57.693] [renderer3] [error] Illegal argument: range: Error: Illegal argument: range
+	at Object.t.illegalArgument (/snap/code/50/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new ae (/snap/code/50/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:531:110)
+	at new ae (/snap/code/50/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at new ProtocolDocumentLink (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:49420:9)
+	at asDocumentLink (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:78637:20)
+	at Array.map (<anonymous>)
+	at asDocumentLinks (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:78650:22)
+[2020-11-20 13:48:39.784] [renderer3] [error] invalid pos: Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:20.868] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:31.518] [renderer3] [error] invalid pos: Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:33.848] [renderer3] [error] invalid pos: Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:35.647] [renderer3] [error] invalid pos: Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:50:52.267] [renderer3] [error] invalid pos: Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:52:07.179] [renderer3] [error] invalid pos: Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:52:34.258] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:53:42.659] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:54:17.653] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:54:54.336] [renderer3] [error] no object found for ident BorrwC: no object found: Error: no object found for ident BorrwC: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:54:54.458] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:55:08.621] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:58:35.375] [renderer3] [error] invalid pos: Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:36.433] [renderer3] [error] no object found for ident data: no object found: Error: no object found for ident data: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:48.712] [renderer3] [error] no object found for ident data: no object found: Error: no object found for ident data: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:52.708] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:57.962] [renderer3] [error] no object found for ident data: no object found: Error: no object found for ident data: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:58.396] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 13:59:59.653] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:00:45.927] [renderer3] [error] invalid pos: Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:00:47.901] [renderer3] [error] no object found for ident _: no object found: Error: no object found for ident _: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:03:43.807] [renderer3] [warning] {"name":"Error","message":"28:89: expected ';', found ','"}
+[2020-11-20 14:03:49.122] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:07:53.213] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:09:02.596] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:09:08.688] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:12:32.286] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:20:03.160] [renderer3] [error] no object found for ident GetBooksByID: no object found: Error: no object found for ident GetBooksByID: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:22:57.836] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:23:22.542] [renderer3] [error] invalid pos: Error: invalid pos
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:23:50.410] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:47.413] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:53.482] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:55.212] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:27:55.418] [renderer3] [error] no object found for ident GetBookByID: no object found: Error: no object found for ident GetBookByID: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:05.628] [renderer3] [error] no object found for ident BorrowC: no object found: Error: no object found for ident BorrowC: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:05.720] [renderer3] [error] no object found for ident BorrowDetail: no object found: Error: no object found for ident BorrowDetail: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:06.740] [renderer3] [error] no object found for ident GetBookByID: no object found: Error: no object found for ident GetBookByID: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-20 14:38:09.402] [renderer3] [error] no object found for ident GetBookByID: no object found: Error: no object found for ident GetBookByID: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)

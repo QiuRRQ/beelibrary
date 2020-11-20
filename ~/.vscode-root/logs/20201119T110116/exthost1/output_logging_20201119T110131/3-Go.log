@@ -1,0 +1,11 @@
+Tools environment: GOPATH=/root/go
+Installing 1 tool at /root/go/bin in module mode.
+  gopls
+
+Installing golang.org/x/tools/gopls (/root/go/bin/gopls) SUCCEEDED
+
+All tools successfully installed. You are ready to Go :).
+Starting linting the current package at /root/go/src/city/app
+Starting linting the current package at /root/go/src/city/app
+Starting linting the current package at /root/go/src/city
+Starting linting the current package at /root/go/src/city/app

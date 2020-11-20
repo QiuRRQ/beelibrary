@@ -1,0 +1,10 @@
+[2020-11-19 11:52:42.978] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-19 11:54:13.631] [renderer3] [error] no object found: Error: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)

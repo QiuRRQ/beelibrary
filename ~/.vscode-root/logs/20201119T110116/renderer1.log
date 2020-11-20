@@ -1,0 +1,25 @@
+[2020-11-19 11:18:24.908] [renderer1] [error] no imported package for city/utils: Error: no imported package for city/utils
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-19 11:32:43.072] [renderer1] [error] no imported package for city/app: Error: no imported package for city/app
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-19 11:35:07.032] [renderer1] [error] no supported code action to execute for file:///root/go/src/city/go.sum, wanted []: Error: no supported code action to execute for file:///root/go/src/city/go.sum, wanted []
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-19 11:42:10.941] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)
+[2020-11-19 11:44:05.435] [renderer1] [error] no object found for ident Use: no object found: Error: no object found for ident Use: no object found
+	at handleResponse (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73541:48)
+	at processMessageQueue (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73356:17)
+	at Immediate.<anonymous> (/root/.vscode/extensions/golang.go-0.18.1/dist/goMain.js:73340:13)
+	at processImmediate (internal/timers.js:439:21)

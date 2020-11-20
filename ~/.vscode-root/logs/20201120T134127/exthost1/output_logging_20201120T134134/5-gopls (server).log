@@ -1,0 +1,200 @@
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go env for /home/aziz/works/newBukuduit/bukuduit-go
+(root /home/aziz/works/newBukuduit/bukuduit-go)
+(go version go version go1.13.8 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOPROXY=https://proxy.golang.org,direct
+GOINSECURE=
+GONOPROXY=
+GOROOT=/usr/lib/go-1.13
+GO111MODULE=
+GOFLAGS=
+GOMOD=/home/aziz/works/newBukuduit/bukuduit-go/go.mod
+GOPATH=/root/go
+GOSUMDB=sum.golang.org
+GOCACHE=/root/.cache/go-build
+GOMODCACHE=
+GONOSUMDB=
+GOPRIVATE=
+
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	directory=/home/aziz/works/newBukuduit/bukuduit-go
+	query=[builtin bukuduit-go/...]
+	packages=34
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="builtin"
+	files=[/usr/lib/go-1.13/src/builtin/builtin.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/aes"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/aes/aes.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/amqp"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/amqp/amqp.go /home/aziz/works/newBukuduit/bukuduit-go/helpers/amqp/connect.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/db/models"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/db/models/BooksDebt.go /home/aziz/works/newBukuduit/bukuduit-go/db/models/BooksTransaction.go /home/aziz/works/newBukuduit/bukuduit-go/db/models/Debt.go /home/aziz/works/newBukuduit/bukuduit-go/db/models/PaymentAccount.go /home/aziz/works/newBukuduit/bukuduit-go/db/models/Shop.go /home/aziz/works/newBukuduit/bukuduit-go/db/models/TransByMonth.go /home/aziz/works/newBukuduit/bukuduit-go/db/models/Transactions.go /home/aziz/works/newBukuduit/bukuduit-go/db/models/UserCustomers.go /home/aziz/works/newBukuduit/bukuduit-go/db/models/Users.go /home/aziz/works/newBukuduit/bukuduit-go/db/models/utang.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/usecase/viewmodel"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/books_debt_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/books_transaction_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/customer_debt_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/debt_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/detail_hutang_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/otp_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/pagination_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/payment_account_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/report_hutang_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/response_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/shop_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/transaction_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/transacttion_list_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/user_customer_debet_credit_list_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/user_customer_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/user_jwt_token_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/user_session_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/user_vm.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/viewmodel/utang_vm.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/db/repositories/contracts"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/db/repositories/contracts/ibooks_Debt_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/contracts/ibooks_transaction_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/contracts/idebts_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/contracts/ipayment_account_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/contracts/ishop_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/contracts/itransaction_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/contracts/iuser_customer_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/contracts/iusers_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/contracts/iutang_repository.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/datetime"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/datetime/parsetotime.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/enums"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/enums/enum.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/str"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/str/camelize.go /home/aziz/works/newBukuduit/bukuduit-go/helpers/str/contain.go /home/aziz/works/newBukuduit/bukuduit-go/helpers/str/global.go /home/aziz/works/newBukuduit/bukuduit-go/helpers/str/random.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/db/repositories/actions"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/db/repositories/actions/books_debt_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/actions/books_transaction_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/actions/debt_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/actions/payment_account_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/actions/shop_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/actions/transactions_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/actions/user_customer_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/actions/user_repository.go /home/aziz/works/newBukuduit/bukuduit-go/db/repositories/actions/utang_repository.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/aesfront"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/aesfront/aesfront.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/hashing"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/hashing/hashing.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/jwe"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/jwe/jwe.go /home/aziz/works/newBukuduit/bukuduit-go/helpers/jwe/rsa_key.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/jwt"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/jwt/jwt.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/messages"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/messages/message.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/server/requests"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/server/requests/books_debt_request.go /home/aziz/works/newBukuduit/bukuduit-go/server/requests/books_transaction_request.go /home/aziz/works/newBukuduit/bukuduit-go/server/requests/login_request.go /home/aziz/works/newBukuduit/bukuduit-go/server/requests/otp_request.go /home/aziz/works/newBukuduit/bukuduit-go/server/requests/payment_account_request.go /home/aziz/works/newBukuduit/bukuduit-go/server/requests/register_request.go /home/aziz/works/newBukuduit/bukuduit-go/server/requests/shop_request.go /home/aziz/works/newBukuduit/bukuduit-go/server/requests/transction_request.go /home/aziz/works/newBukuduit/bukuduit-go/server/requests/user_customer_request.go /home/aziz/works/newBukuduit/bukuduit-go/server/requests/user_request.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/usecase"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/usecase/authentication_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/books_debt_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/books_transaction_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/contract.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/otp_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/payment_account_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/shop_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/sms_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/transaction_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/user_customer_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/user_usecase.go /home/aziz/works/newBukuduit/bukuduit-go/usecase/utang_usecase.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/amqpconsumer"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/amqpconsumer/amqpconsumer.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/logruslogger"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/logruslogger/errlog.go /home/aziz/works/newBukuduit/bukuduit-go/helpers/logruslogger/logruslogger.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/amqp_listener_otp"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/amqp_listener_otp/main.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/db"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/db/index.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/DtoResponse"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/DtoResponse/ResponseDto.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/aws"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/aws/aws_s3.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/file"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/file/Upload.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/google"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/google/fcm.go /home/aziz/works/newBukuduit/bukuduit-go/helpers/google/googleoauth.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/logrus"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/logrus/logger.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/mailing"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/mailing/mail.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/remarks"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/remarks/remarks.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/helpers/sms"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/helpers/sms/sms_helper.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/server/handlers"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/server/handlers/authentication_handler.go /home/aziz/works/newBukuduit/bukuduit-go/server/handlers/handler.go /home/aziz/works/newBukuduit/bukuduit-go/server/handlers/otp_handler.go /home/aziz/works/newBukuduit/bukuduit-go/server/handlers/payment_account_handler.go /home/aziz/works/newBukuduit/bukuduit-go/server/handlers/shop_handler.go /home/aziz/works/newBukuduit/bukuduit-go/server/handlers/transaction_handler.go /home/aziz/works/newBukuduit/bukuduit-go/server/handlers/user_customer_handler.go /home/aziz/works/newBukuduit/bukuduit-go/server/handlers/user_handler.go /home/aziz/works/newBukuduit/bukuduit-go/server/handlers/utang_handler.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/server/middlewares"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/server/middlewares/header_x_request_id.go /home/aziz/works/newBukuduit/bukuduit-go/server/middlewares/logmiddleware.go /home/aziz/works/newBukuduit/bukuduit-go/server/middlewares/verify_jwt.go /home/aziz/works/newBukuduit/bukuduit-go/server/middlewares/xapi_key.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/server/bootstrap/routes"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/routes/authentication_route.go /home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/routes/otp_routes.go /home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/routes/payment_account_route.go /home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/routes/shop_route.go /home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/routes/transaction_route.go /home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/routes/user_customer_route.go /home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/routes/user_routes.go /home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/routes/utang_routes.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/server/bootstrap"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/boot.go /home/aziz/works/newBukuduit/bukuduit-go/server/bootstrap/route.go]
+
+[Info  - 1:41:34 PM] 2020/11/20 13:41:34 go/packages.Load
+	snapshot=0
+	package_path="bukuduit-go/server"
+	files=[/home/aziz/works/newBukuduit/bukuduit-go/server/main.go]
+
+[Info  - 1:51:49 PM] 2020/11/20 13:51:49 background imports cache refresh starting
+
+[Info  - 1:51:49 PM] 2020/11/20 13:51:49 background refresh finished after 256.972749ms
+

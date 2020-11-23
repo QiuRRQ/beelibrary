@@ -51,24 +51,24 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/root/go/src/city",
-                                        "external": "file:///root/go/src/city",
-                                        "path": "/root/go/src/city",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/go/src/city"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
+                                        "fsPath": "/home/aziz/works/newBukuduit/bukuduit-go",
                                         "external": "file:///home/aziz/works/newBukuduit/bukuduit-go",
                                         "path": "/home/aziz/works/newBukuduit/bukuduit-go",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "/home/aziz/works/newBukuduit/bukuduit-go"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///root/go/src/city",
+                                        "path": "/root/go/src/city",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/go/src/city"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -594,7 +594,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1474,40 +1475,17 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///root/go/src/city",
-            "backupPath": "/root/go/src/city/~/.vscode-root/Backups/2fe24d542e66ec2bc0d63b7f8c42e809",
+            "folder": "file:///home/aziz/works/newBukuduit/bukuduit-go",
+            "backupPath": "/root/go/src/city/~/.vscode-root/Backups/1f84669a09c8fb290d3ff7d24ed5af4e",
             "uiState": {
                 "mode": 0,
-                "x": 334,
-                "y": 64,
+                "x": 453,
+                "y": 65,
                 "width": 1024,
                 "height": 768
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///home/aziz/works/newBukuduit/bukuduit-go",
-                "backupPath": "/root/go/src/city/~/.vscode-root/Backups/1f84669a09c8fb290d3ff7d24ed5af4e",
-                "uiState": {
-                    "mode": 0,
-                    "x": 453,
-                    "y": 65,
-                    "width": 1024,
-                    "height": 768
-                }
-            },
-            {
-                "folder": "file:///root/go/src/city",
-                "backupPath": "/root/go/src/city/~/.vscode-root/Backups/2fe24d542e66ec2bc0d63b7f8c42e809",
-                "uiState": {
-                    "mode": 0,
-                    "x": 334,
-                    "y": 64,
-                    "width": 1024,
-                    "height": 768
-                }
-            }
-        ]
+        "openedWindows": []
     },
     "pickerWorkingDir": "/root/go/src"
 }

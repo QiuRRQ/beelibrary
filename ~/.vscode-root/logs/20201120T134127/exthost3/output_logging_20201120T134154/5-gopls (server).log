@@ -1242,3 +1242,1157 @@ GO111MODULE=
 
 [Info  - 2:38:39 PM] 2020/11/20 14:38:39 background refresh finished after 23.514328ms
 
+[Info  - 2:41:06 PM] 2020/11/20 14:41:06 background imports cache refresh starting
+
+[Info  - 2:41:06 PM] 2020/11/20 14:41:06 background refresh finished after 18.04694ms
+
+[Info  - 2:53:46 PM] 2020/11/20 14:53:46 background imports cache refresh starting
+
+[Info  - 2:53:46 PM] 2020/11/20 14:53:46 background refresh finished after 18.427426ms
+
+[Info  - 2:57:02 PM] 2020/11/20 14:57:02 background imports cache refresh starting
+
+[Info  - 2:57:02 PM] 2020/11/20 14:57:02 background refresh finished after 16.553368ms
+
+[Info  - 2:57:55 PM] 2020/11/20 14:57:55 background imports cache refresh starting
+
+[Info  - 2:57:55 PM] 2020/11/20 14:57:55 background refresh finished after 30.589434ms
+
+[Error - 2:58:07 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 2:58:07 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 2:58:17 PM] Request textDocument/definition failed.
+  Message: no object found for ident GetNewestBook: no object found
+  Code: 0 
+[Info  - 2:58:26 PM] 2020/11/20 14:58:26 background imports cache refresh starting
+
+[Info  - 2:58:26 PM] 2020/11/20 14:58:26 background refresh finished after 51.594754ms
+
+[Info  - 2:58:57 PM] 2020/11/20 14:58:57 background imports cache refresh starting
+
+[Info  - 2:58:57 PM] 2020/11/20 14:58:57 background refresh finished after 17.611317ms
+
+[Info  - 3:18:24 PM] 2020/11/20 15:18:24 background imports cache refresh starting
+
+[Info  - 3:18:24 PM] 2020/11/20 15:18:24 background refresh finished after 18.707856ms
+
+[Error - 3:18:33 PM] 2020/11/20 15:18:33 no completions found: this is a definition of func (*Borrow).C(borrowCard Borrow, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Borrow)
+	position={78 23}
+
+[Info  - 3:18:55 PM] 2020/11/20 15:18:55 background imports cache refresh starting
+
+[Info  - 3:18:55 PM] 2020/11/20 15:18:55 background refresh finished after 45.100675ms
+
+[Error - 3:23:48 PM] 2020/11/20 15:23:48 no completions found: this is a definition of func (*Borrow).Cr(borrowCard Borrow, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Borrow)
+	position={78 24}
+
+[Error - 3:23:51 PM] 2020/11/20 15:23:51 no completions found: this is a definition of func (*Borrow).CreatBo(borrowCard Borrow, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Borrow)
+	position={78 29}
+
+[Error - 3:23:51 PM] 2020/11/20 15:23:51 no completions found: this is a definition of func (*Borrow).CreatBoo(borrowCard Borrow, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Borrow)
+	position={78 30}
+
+[Error - 3:23:51 PM] 2020/11/20 15:23:51 no completions found: this is a definition of func (*Borrow).CreatBook(borrowCard Borrow, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Borrow)
+	position={78 31}
+
+[Info  - 3:24:19 PM] 2020/11/20 15:24:19 background imports cache refresh starting
+
+[Info  - 3:24:19 PM] 2020/11/20 15:24:19 background refresh finished after 17.846649ms
+
+[Error - 3:26:14 PM] 2020/11/20 15:26:14 no completions found: this is a definition of var b *Books
+	position={78 7}
+
+[Error - 3:26:14 PM] 2020/11/20 15:26:14 no completions found: this is a definition of var boo *Books
+	position={78 9}
+
+[Info  - 3:26:18 PM] 2020/11/20 15:26:18 go/packages.Load
+	snapshot=1136
+	directory=/root/go/src/city
+	query=[city/controllers city/models]
+	packages=2
+
+[Info  - 3:26:18 PM] 2020/11/20 15:26:18 go/packages.Load
+	snapshot=1136
+	package_path="city/models"
+	files=[/root/go/src/city/models/base.go /root/go/src/city/models/book.go /root/go/src/city/models/borrow.go /root/go/src/city/models/borrowd.go /root/go/src/city/models/db_host.go /root/go/src/city/models/model.go /root/go/src/city/models/srep.go /root/go/src/city/models/stock.go /root/go/src/city/models/users.go]
+
+[Info  - 3:26:18 PM] 2020/11/20 15:26:18 go/packages.Load
+	snapshot=1136
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Error - 3:26:18 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 3:26:28 PM] 2020/11/20 15:26:28 background imports cache refresh starting
+
+[Info  - 3:26:28 PM] 2020/11/20 15:26:28 background refresh finished after 17.723872ms
+
+[Info  - 3:27:05 PM] 2020/11/20 15:27:05 background imports cache refresh starting
+
+[Info  - 3:27:05 PM] 2020/11/20 15:27:05 background refresh finished after 17.956572ms
+
+[Info  - 3:28:20 PM] 2020/11/20 15:28:20 background imports cache refresh starting
+
+[Info  - 3:28:20 PM] 2020/11/20 15:28:20 background refresh finished after 17.206821ms
+
+[Error - 3:29:05 PM] 2020/11/20 15:29:05 no completions found: this is a definition of func (*Books).CreatU(borrowCard Borrow, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Books)
+	position={229 25}
+
+[Error - 3:29:05 PM] 2020/11/20 15:29:05 no completions found: this is a definition of func (*Books).CreatUs(borrowCard Borrow, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Books)
+	position={229 26}
+
+[Error - 3:29:06 PM] 2020/11/20 15:29:06 no completions found: this is a definition of func (*Books).CreatUse(borrowCard Borrow, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Books)
+	position={229 27}
+
+[Error - 3:29:06 PM] 2020/11/20 15:29:06 no completions found: this is a definition of func (*Books).CreatUser(borrowCard Borrow, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Books)
+	position={229 28}
+
+[Info  - 3:29:17 PM] 2020/11/20 15:29:17 background imports cache refresh starting
+
+[Info  - 3:29:17 PM] 2020/11/20 15:29:17 background refresh finished after 42.185898ms
+
+[Error - 3:29:19 PM] 2020/11/20 15:29:19 no completions found: this is a definition of var u *Users
+	position={229 7}
+
+[Error - 3:29:19 PM] 2020/11/20 15:29:19 no completions found: this is a definition of var us *Users
+	position={229 8}
+
+[Info  - 3:29:49 PM] 2020/11/20 15:29:49 background imports cache refresh starting
+
+[Info  - 3:29:49 PM] 2020/11/20 15:29:49 background refresh finished after 17.681085ms
+
+[Error - 3:30:09 PM] 2020/11/20 15:30:09 no completions found: this is a definition of var c invalid type
+	position={28 5}
+
+[Error - 3:30:10 PM] 2020/11/20 15:30:10 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:29:5: missing variable type or initialization
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 3:30:10 PM] 2020/11/20 15:30:10 no completions found: this is a definition of var C invalid type
+	position={28 5}
+
+[Error - 3:30:11 PM] 2020/11/20 15:30:11 no completions found: this is a definition of var Cre invalid type
+	position={28 7}
+
+[Error - 3:30:11 PM] 2020/11/20 15:30:11 no completions found: this is a definition of var Creat invalid type
+	position={28 9}
+
+[Error - 3:30:11 PM] 2020/11/20 15:30:11 no completions found: this is a definition of var Create invalid type
+	position={28 10}
+
+[Error - 3:30:11 PM] 2020/11/20 15:30:11 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:29:5: missing variable type or initialization
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 3:30:12 PM] 2020/11/20 15:30:12 no completions found: this is a definition of var CreateB invalid type
+	position={28 11}
+
+[Error - 3:30:12 PM] 2020/11/20 15:30:12 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:29:5: missing variable type or initialization
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 3:30:13 PM] 2020/11/20 15:30:13 no completions found: this is a definition of var CreateBo invalid type
+	position={28 12}
+
+[Error - 3:30:13 PM] 2020/11/20 15:30:13 no completions found: this is a definition of var CreateBoo invalid type
+	position={28 13}
+
+[Error - 3:30:13 PM] 2020/11/20 15:30:13 no completions found: this is a definition of var CreateBook invalid type
+	position={28 14}
+
+[Error - 3:30:13 PM] 2020/11/20 15:30:13 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:29:5: missing variable type or initialization
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 3:30:15 PM] 2020/11/20 15:30:15 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:31:1: expected '(', found 'var' (and 1 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Info  - 3:30:29 PM] 2020/11/20 15:30:29 background imports cache refresh starting
+
+[Info  - 3:30:29 PM] 2020/11/20 15:30:29 background refresh finished after 42.950634ms
+
+[Error - 3:30:57 PM] Request textDocument/definition failed.
+  Message: no object found for ident InputBorrowd: no object found
+  Code: 0 
+[Error - 3:31:01 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 3:31:01 PM] 2020/11/20 15:31:01 background imports cache refresh starting
+
+[Info  - 3:31:01 PM] 2020/11/20 15:31:01 background refresh finished after 388.24313ms
+
+[Error - 3:31:01 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 3:31:08 PM] 2020/11/20 15:31:08 go/packages.Load
+	snapshot=1253
+	directory=/root/go/src/city
+	query=[city/controllers]
+	packages=1
+
+[Info  - 3:31:08 PM] 2020/11/20 15:31:08 go/packages.Load
+	snapshot=1253
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Info  - 3:31:08 PM] 2020/11/20 15:31:08 go/packages.Load
+	snapshot=1253
+	directory=/root/go/src/city
+	query=[file=/root/go/src/city/controllers/bookController.go]
+	packages=1
+
+[Info  - 3:31:08 PM] 2020/11/20 15:31:08 go/packages.Load
+	snapshot=1253
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Info  - 3:31:31 PM] 2020/11/20 15:31:31 background imports cache refresh starting
+
+[Info  - 3:31:31 PM] 2020/11/20 15:31:31 background refresh finished after 22.822987ms
+
+[Error - 3:31:35 PM] 2020/11/20 15:31:35 no completions found: this is a definition of var Input *city/models.Books
+	position={31 6}
+
+[Info  - 3:32:01 PM] 2020/11/20 15:32:01 background imports cache refresh starting
+
+[Info  - 3:32:01 PM] 2020/11/20 15:32:01 background refresh finished after 13.99493ms
+
+[Info  - 3:32:33 PM] 2020/11/20 15:32:33 background imports cache refresh starting
+
+[Info  - 3:32:33 PM] 2020/11/20 15:32:33 background refresh finished after 47.595234ms
+
+[Error - 3:32:53 PM] 2020/11/20 15:32:53 no completions found: this is a definition of var _ *city/models.Books
+	position={39 8}
+
+[Info  - 3:33:03 PM] 2020/11/20 15:33:03 background imports cache refresh starting
+
+[Info  - 3:33:04 PM] 2020/11/20 15:33:04 background refresh finished after 50.204864ms
+
+[Info  - 3:33:34 PM] 2020/11/20 15:33:34 background imports cache refresh starting
+
+[Info  - 3:33:34 PM] 2020/11/20 15:33:34 background refresh finished after 43.854694ms
+
+[Error - 3:34:03 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 3:34:07 PM] 2020/11/20 15:34:07 background imports cache refresh starting
+
+[Info  - 3:34:07 PM] 2020/11/20 15:34:07 background refresh finished after 41.827955ms
+
+[Info  - 3:34:38 PM] 2020/11/20 15:34:38 background imports cache refresh starting
+
+[Info  - 3:34:38 PM] 2020/11/20 15:34:38 background refresh finished after 53.759077ms
+
+[Info  - 3:35:13 PM] 2020/11/20 15:35:13 background imports cache refresh starting
+
+[Info  - 3:35:13 PM] 2020/11/20 15:35:13 background refresh finished after 17.049029ms
+
+[Error - 3:35:25 PM] 2020/11/20 15:35:25 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:42:7: expected operand, found ']' (and 4 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 3:35:25 PM] 2020/11/20 15:35:25 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Info  - 3:35:47 PM] 2020/11/20 15:35:47 background imports cache refresh starting
+
+[Info  - 3:35:47 PM] 2020/11/20 15:35:47 background refresh finished after 43.350717ms
+
+[Error - 3:36:15 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:36:23 PM] 2020/11/20 15:36:23 no completions found: this is a definition of var CreateU func(w net/http.ResponseWriter, r *net/http.Request)
+	position={34 11}
+
+[Error - 3:36:23 PM] 2020/11/20 15:36:23 no completions found: this is a definition of var CreateUs func(w net/http.ResponseWriter, r *net/http.Request)
+	position={34 12}
+
+[Error - 3:36:23 PM] 2020/11/20 15:36:23 no completions found: this is a definition of var CreateUse func(w net/http.ResponseWriter, r *net/http.Request)
+	position={34 13}
+
+[Error - 3:36:23 PM] 2020/11/20 15:36:23 no completions found: this is a definition of var CreateUser func(w net/http.ResponseWriter, r *net/http.Request)
+	position={34 14}
+
+[Info  - 3:36:26 PM] 2020/11/20 15:36:26 background imports cache refresh starting
+
+[Info  - 3:36:26 PM] 2020/11/20 15:36:26 background refresh finished after 17.434154ms
+
+[Info  - 3:36:57 PM] 2020/11/20 15:36:57 background imports cache refresh starting
+
+[Info  - 3:36:57 PM] 2020/11/20 15:36:57 background refresh finished after 18.421333ms
+
+[Info  - 3:37:27 PM] 2020/11/20 15:37:27 background imports cache refresh starting
+
+[Info  - 3:37:27 PM] 2020/11/20 15:37:27 background refresh finished after 18.734294ms
+
+[Info  - 3:37:59 PM] 2020/11/20 15:37:59 background imports cache refresh starting
+
+[Info  - 3:37:59 PM] 2020/11/20 15:37:59 background refresh finished after 16.315057ms
+
+[Info  - 3:38:30 PM] 2020/11/20 15:38:30 background imports cache refresh starting
+
+[Info  - 3:38:30 PM] 2020/11/20 15:38:30 background refresh finished after 52.479735ms
+
+[Error - 3:38:54 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:38:55 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:39:01 PM] 2020/11/20 15:39:01 no signature help: no signature help within a function declaration
+	position={16 41}
+
+[Info  - 3:39:07 PM] 2020/11/20 15:39:07 background imports cache refresh starting
+
+[Info  - 3:39:07 PM] 2020/11/20 15:39:07 background refresh finished after 49.930166ms
+
+[Info  - 3:39:40 PM] 2020/11/20 15:39:40 background imports cache refresh starting
+
+[Info  - 3:39:40 PM] 2020/11/20 15:39:40 background refresh finished after 14.451642ms
+
+[Error - 3:42:07 PM] Request textDocument/definition failed.
+  Message: no object found for ident CreateBook: no object found
+  Code: 0 
+[Error - 3:42:09 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:42:15 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 3:42:41 PM] 2020/11/20 15:42:41 background imports cache refresh starting
+
+[Info  - 3:42:41 PM] 2020/11/20 15:42:41 background refresh finished after 47.83659ms
+
+[Error - 3:42:55 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:42:55 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:42:55 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:43:13 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:43:22 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:43:22 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 3:43:24 PM] 2020/11/20 15:43:24 background imports cache refresh starting
+
+[Info  - 3:43:24 PM] 2020/11/20 15:43:24 background refresh finished after 33.327097ms
+
+[Error - 3:43:37 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:43:54 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 3:44:07 PM] 2020/11/20 15:44:07 background imports cache refresh starting
+
+[Info  - 3:44:07 PM] 2020/11/20 15:44:07 background refresh finished after 49.546527ms
+
+[Error - 3:44:08 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 3:44:38 PM] 2020/11/20 15:44:38 background imports cache refresh starting
+
+[Info  - 3:44:38 PM] 2020/11/20 15:44:38 background refresh finished after 17.238346ms
+
+[Info  - 3:46:37 PM] 2020/11/20 15:46:37 background imports cache refresh starting
+
+[Info  - 3:46:37 PM] 2020/11/20 15:46:37 background refresh finished after 13.552192ms
+
+[Error - 3:47:03 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 3:47:16 PM] 2020/11/20 15:47:16 background imports cache refresh starting
+
+[Info  - 3:47:16 PM] 2020/11/20 15:47:16 background refresh finished after 41.358416ms
+
+[Error - 3:47:30 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 3:47:52 PM] 2020/11/20 15:47:52 background imports cache refresh starting
+
+[Info  - 3:47:52 PM] 2020/11/20 15:47:52 background refresh finished after 49.238423ms
+
+[Error - 3:47:56 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 3:48:26 PM] 2020/11/20 15:48:26 background imports cache refresh starting
+
+[Info  - 3:48:26 PM] 2020/11/20 15:48:26 background refresh finished after 17.462251ms
+
+[Info  - 3:51:13 PM] 2020/11/20 15:51:13 background imports cache refresh starting
+
+[Info  - 3:51:13 PM] 2020/11/20 15:51:13 background refresh finished after 43.874598ms
+
+[Error - 3:51:18 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:51:18 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:51:28 PM] 2020/11/20 15:51:28 no completions found: this is a definition of func (*Stock).CreatS(mydb *invalid type) (map[string]interface{}, *Books)
+	position={9 25}
+
+[Error - 3:51:28 PM] 2020/11/20 15:51:28 no completions found: this is a definition of func (*Stock).CreatSt(mydb *invalid type) (map[string]interface{}, *Books)
+	position={9 26}
+
+[Error - 3:51:28 PM] 2020/11/20 15:51:28 no completions found: this is a definition of func (*Stock).CreatSto(mydb *invalid type) (map[string]interface{}, *Books)
+	position={9 27}
+
+[Error - 3:51:29 PM] 2020/11/20 15:51:29 no completions found: this is a definition of func (*Stock).CreatStoc(mydb *invalid type) (map[string]interface{}, *Books)
+	position={9 28}
+
+[Error - 3:51:29 PM] 2020/11/20 15:51:29 no completions found: this is a definition of func (*Stock).CreatStock(mydb *invalid type) (map[string]interface{}, *Books)
+	position={9 29}
+
+[Info  - 3:51:35 PM] 2020/11/20 15:51:35 go/packages.Load
+	snapshot=1444
+	directory=/root/go/src/city
+	query=[city/controllers city/models]
+	packages=2
+
+[Info  - 3:51:35 PM] 2020/11/20 15:51:35 go/packages.Load
+	snapshot=1444
+	package_path="city/models"
+	files=[/root/go/src/city/models/base.go /root/go/src/city/models/book.go /root/go/src/city/models/borrow.go /root/go/src/city/models/borrowd.go /root/go/src/city/models/db_host.go /root/go/src/city/models/model.go /root/go/src/city/models/srep.go /root/go/src/city/models/stock.go /root/go/src/city/models/users.go]
+
+[Info  - 3:51:35 PM] 2020/11/20 15:51:35 go/packages.Load
+	snapshot=1444
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Info  - 3:51:47 PM] 2020/11/20 15:51:47 background imports cache refresh starting
+
+[Info  - 3:51:47 PM] 2020/11/20 15:51:47 background refresh finished after 17.888473ms
+
+[Info  - 3:52:10 PM] 2020/11/20 15:52:10 go/packages.Load
+	snapshot=1449
+	directory=/root/go/src/city
+	query=[city/controllers city/models]
+	packages=2
+
+[Info  - 3:52:10 PM] 2020/11/20 15:52:10 go/packages.Load
+	snapshot=1449
+	package_path="city/models"
+	files=[/root/go/src/city/models/base.go /root/go/src/city/models/book.go /root/go/src/city/models/borrow.go /root/go/src/city/models/borrowd.go /root/go/src/city/models/db_host.go /root/go/src/city/models/model.go /root/go/src/city/models/srep.go /root/go/src/city/models/stock.go /root/go/src/city/models/users.go]
+
+[Info  - 3:52:10 PM] 2020/11/20 15:52:10 go/packages.Load
+	snapshot=1449
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Info  - 3:52:10 PM] 2020/11/20 15:52:10 go/packages.Load
+	snapshot=1449
+	directory=/root/go/src/city
+	query=[file=/root/go/src/city/models/stock.go]
+	packages=1
+
+[Info  - 3:52:10 PM] 2020/11/20 15:52:10 go/packages.Load
+	snapshot=1449
+	package_path="city/models"
+	files=[/root/go/src/city/models/base.go /root/go/src/city/models/book.go /root/go/src/city/models/borrow.go /root/go/src/city/models/borrowd.go /root/go/src/city/models/db_host.go /root/go/src/city/models/model.go /root/go/src/city/models/srep.go /root/go/src/city/models/stock.go /root/go/src/city/models/users.go]
+
+[Info  - 3:52:28 PM] 2020/11/20 15:52:28 go/packages.Load
+	snapshot=1453
+	directory=/root/go/src/city
+	query=[city/controllers city/models]
+	packages=2
+
+[Info  - 3:52:28 PM] 2020/11/20 15:52:28 go/packages.Load
+	snapshot=1453
+	package_path="city/models"
+	files=[/root/go/src/city/models/base.go /root/go/src/city/models/book.go /root/go/src/city/models/borrow.go /root/go/src/city/models/borrowd.go /root/go/src/city/models/db_host.go /root/go/src/city/models/model.go /root/go/src/city/models/srep.go /root/go/src/city/models/stock.go /root/go/src/city/models/users.go]
+
+[Info  - 3:52:28 PM] 2020/11/20 15:52:28 go/packages.Load
+	snapshot=1453
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Error - 3:52:29 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 3:52:36 PM] 2020/11/20 15:52:36 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/models/stock.go
+
+[Info  - 3:52:38 PM] 2020/11/20 15:52:38 background imports cache refresh starting
+
+[Info  - 3:52:38 PM] 2020/11/20 15:52:38 background refresh finished after 18.140079ms
+
+[Error - 3:52:38 PM] 2020/11/20 15:52:38 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:29:1: expected operand, found '}' (and 3 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 3:52:38 PM] 2020/11/20 15:52:38 no completions found: this is a definition of var s *Stock
+	position={16 7}
+
+[Error - 3:52:39 PM] 2020/11/20 15:52:39 no completions found: this is a definition of var stock *Stock
+	position={16 11}
+
+[Error - 3:52:39 PM] 2020/11/20 15:52:39 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:29:1: expected operand, found '}' (and 3 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 3:52:39 PM] 2020/11/20 15:52:39 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/models/stock.go
+
+[Error - 3:52:40 PM] 2020/11/20 15:52:40 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:29:1: expected operand, found '}' (and 3 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 3:52:41 PM] 2020/11/20 15:52:41 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:29:1: expected operand, found '}' (and 3 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 3:52:43 PM] 2020/11/20 15:52:43 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:29:1: expected operand, found '}' (and 3 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 3:52:43 PM] 2020/11/20 15:52:43 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/models/stock.go
+
+[Error - 3:52:43 PM] 2020/11/20 15:52:43 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/models/stock.go
+
+[Error - 3:52:47 PM] Request textDocument/definition failed.
+  Message: no object found for ident book: no object found
+  Code: 0 
+[Info  - 3:53:12 PM] 2020/11/20 15:53:12 background imports cache refresh starting
+
+[Info  - 3:53:12 PM] 2020/11/20 15:53:12 background refresh finished after 43.858087ms
+
+[Info  - 3:53:42 PM] 2020/11/20 15:53:42 background imports cache refresh starting
+
+[Info  - 3:53:42 PM] 2020/11/20 15:53:42 background refresh finished after 17.517928ms
+
+[Error - 3:53:58 PM] 2020/11/20 15:53:58 no completions found: this is a definition of var CreateS func(w invalid type, r *invalid type)
+	position={3 11}
+
+[Error - 3:53:59 PM] 2020/11/20 15:53:59 no completions found: this is a definition of var CreateSto func(w invalid type, r *invalid type)
+	position={3 13}
+
+[Error - 3:53:59 PM] 2020/11/20 15:53:59 no completions found: this is a definition of var CreateStoc func(w invalid type, r *invalid type)
+	position={3 14}
+
+[Error - 3:53:59 PM] 2020/11/20 15:53:59 no completions found: this is a definition of var CreateStock func(w invalid type, r *invalid type)
+	position={3 15}
+
+[Info  - 3:54:04 PM] 2020/11/20 15:54:04 go/packages.Load
+	snapshot=1502
+	directory=/root/go/src/city
+	query=[city/controllers]
+	packages=1
+
+[Info  - 3:54:04 PM] 2020/11/20 15:54:04 go/packages.Load
+	snapshot=1502
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Info  - 3:54:12 PM] 2020/11/20 15:54:12 go/packages.Load
+	snapshot=1509
+	directory=/root/go/src/city
+	query=[city/controllers]
+	packages=1
+
+[Info  - 3:54:12 PM] 2020/11/20 15:54:12 go/packages.Load
+	snapshot=1509
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Info  - 3:54:15 PM] 2020/11/20 15:54:15 background imports cache refresh starting
+
+[Info  - 3:54:15 PM] 2020/11/20 15:54:15 background refresh finished after 42.983367ms
+
+[Error - 3:54:21 PM] Request textDocument/definition failed.
+  Message: no object found for ident d: no object found
+  Code: 0 
+[Error - 3:54:22 PM] Request textDocument/definition failed.
+  Message: no object found for ident d: no object found
+  Code: 0 
+[Info  - 3:54:29 PM] 2020/11/20 15:54:29 go/packages.Load
+	snapshot=1511
+	directory=/root/go/src/city
+	query=[city/controllers]
+	packages=1
+
+[Info  - 3:54:29 PM] 2020/11/20 15:54:29 go/packages.Load
+	snapshot=1511
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Info  - 3:54:31 PM] 2020/11/20 15:54:31 go/packages.Load
+	snapshot=1513
+	directory=/root/go/src/city
+	query=[city/controllers]
+	packages=1
+
+[Info  - 3:54:31 PM] 2020/11/20 15:54:31 go/packages.Load
+	snapshot=1513
+	package_path="city/controllers"
+	files=[/root/go/src/city/controllers/bookController.go /root/go/src/city/controllers/borrowController.go /root/go/src/city/controllers/borrowdController.go /root/go/src/city/controllers/cityController.go /root/go/src/city/controllers/srepController.go /root/go/src/city/controllers/stockController.go /root/go/src/city/controllers/usersController.go]
+
+[Info  - 3:54:45 PM] 2020/11/20 15:54:45 background imports cache refresh starting
+
+[Info  - 3:54:45 PM] 2020/11/20 15:54:45 background refresh finished after 39.439299ms
+
+[Info  - 3:55:16 PM] 2020/11/20 15:55:16 background imports cache refresh starting
+
+[Info  - 3:55:16 PM] 2020/11/20 15:55:16 background refresh finished after 16.975473ms
+
+[Info  - 3:56:48 PM] 2020/11/20 15:56:48 background imports cache refresh starting
+
+[Info  - 3:56:48 PM] 2020/11/20 15:56:48 background refresh finished after 47.041966ms
+
+[Info  - 3:57:46 PM] 2020/11/20 15:57:46 background imports cache refresh starting
+
+[Info  - 3:57:46 PM] 2020/11/20 15:57:46 background refresh finished after 50.182822ms
+
+[Info  - 3:59:25 PM] 2020/11/20 15:59:25 background imports cache refresh starting
+
+[Info  - 3:59:25 PM] 2020/11/20 15:59:25 background refresh finished after 18.105333ms
+
+[Info  - 3:59:55 PM] 2020/11/20 15:59:55 background imports cache refresh starting
+
+[Info  - 3:59:55 PM] 2020/11/20 15:59:55 background refresh finished after 16.711716ms
+
+[Error - 3:59:58 PM] Request textDocument/definition failed.
+  Message: no object found for ident CreatBook: no object found
+  Code: 0 
+[Error - 3:59:59 PM] Request textDocument/definition failed.
+  Message: no object found for ident CreatBook: no object found
+  Code: 0 
+[Error - 4:00:00 PM] Request textDocument/definition failed.
+  Message: no object found for ident CreatBook: no object found
+  Code: 0 
+[Info  - 4:00:25 PM] 2020/11/20 16:00:25 background imports cache refresh starting
+
+[Info  - 4:00:25 PM] 2020/11/20 16:00:25 background refresh finished after 15.2415ms
+
+[Info  - 4:00:55 PM] 2020/11/20 16:00:55 background imports cache refresh starting
+
+[Info  - 4:00:55 PM] 2020/11/20 16:00:55 background refresh finished after 17.170833ms
+
+[Info  - 4:01:27 PM] 2020/11/20 16:01:27 background imports cache refresh starting
+
+[Info  - 4:01:27 PM] 2020/11/20 16:01:27 background refresh finished after 13.539167ms
+
+[Info  - 4:02:01 PM] 2020/11/20 16:02:01 background imports cache refresh starting
+
+[Info  - 4:02:01 PM] 2020/11/20 16:02:01 background refresh finished after 42.850642ms
+
+[Info  - 4:02:42 PM] 2020/11/20 16:02:42 background imports cache refresh starting
+
+[Info  - 4:02:42 PM] 2020/11/20 16:02:42 background refresh finished after 42.915308ms
+
+[Info  - 4:03:16 PM] 2020/11/20 16:03:16 background imports cache refresh starting
+
+[Info  - 4:03:16 PM] 2020/11/20 16:03:16 background refresh finished after 14.714468ms
+
+[Info  - 4:03:54 PM] 2020/11/20 16:03:54 background imports cache refresh starting
+
+[Info  - 4:03:54 PM] 2020/11/20 16:03:54 background refresh finished after 48.316887ms
+
+[Info  - 4:04:35 PM] 2020/11/20 16:04:35 background imports cache refresh starting
+
+[Info  - 4:04:35 PM] 2020/11/20 16:04:35 background refresh finished after 17.88184ms
+
+[Info  - 4:05:10 PM] 2020/11/20 16:05:10 background imports cache refresh starting
+
+[Info  - 4:05:10 PM] 2020/11/20 16:05:10 background refresh finished after 17.2936ms
+
+[Error - 4:05:38 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 4:05:41 PM] 2020/11/20 16:05:41 background imports cache refresh starting
+
+[Info  - 4:05:42 PM] 2020/11/20 16:05:42 background refresh finished after 43.677483ms
+
+[Error - 4:05:53 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 4:06:12 PM] 2020/11/20 16:06:12 background imports cache refresh starting
+
+[Info  - 4:06:12 PM] 2020/11/20 16:06:12 background refresh finished after 18.105079ms
+
+[Info  - 4:06:52 PM] 2020/11/20 16:06:52 background imports cache refresh starting
+
+[Info  - 4:06:52 PM] 2020/11/20 16:06:52 background refresh finished after 20.81789ms
+
+[Error - 4:07:17 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:07:17 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:07:18 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 4:07:47 PM] 2020/11/20 16:07:47 background imports cache refresh starting
+
+[Info  - 4:07:47 PM] 2020/11/20 16:07:47 background refresh finished after 24.090702ms
+
+[Info  - 4:08:17 PM] 2020/11/20 16:08:17 background imports cache refresh starting
+
+[Info  - 4:08:17 PM] 2020/11/20 16:08:17 background refresh finished after 17.131453ms
+
+[Error - 4:10:50 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:10:50 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:10:51 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:10:51 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 4:11:01 PM] 2020/11/20 16:11:01 background imports cache refresh starting
+
+[Info  - 4:11:01 PM] 2020/11/20 16:11:01 background refresh finished after 21.556643ms
+
+[Info  - 4:11:55 PM] 2020/11/20 16:11:55 background imports cache refresh starting
+
+[Info  - 4:11:55 PM] 2020/11/20 16:11:55 background refresh finished after 31.019427ms
+
+[Info  - 4:12:30 PM] 2020/11/20 16:12:30 background imports cache refresh starting
+
+[Info  - 4:12:30 PM] 2020/11/20 16:12:30 background refresh finished after 43.059138ms
+
+[Error - 4:15:00 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:15:01 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:15:03 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:15:03 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:15:08 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:15:08 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:15:21 PM] Request textDocument/definition failed.
+  Message: no object found for ident Update: no object found
+  Code: 0 
+[Error - 4:15:21 PM] Request textDocument/definition failed.
+  Message: no object found for ident Update: no object found
+  Code: 0 
+[Error - 4:15:22 PM] Request textDocument/definition failed.
+  Message: no object found for ident UpdateBook: no object found
+  Code: 0 
+[Error - 4:15:22 PM] Request textDocument/definition failed.
+  Message: no object found for ident UpdateBook: no object found
+  Code: 0 
+[Info  - 4:15:22 PM] 2020/11/20 16:15:22 background imports cache refresh starting
+
+[Info  - 4:15:22 PM] 2020/11/20 16:15:22 background refresh finished after 14.988521ms
+
+[Error - 4:17:02 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 4:17:02 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 4:17:28 PM] 2020/11/20 16:17:28 background imports cache refresh starting
+
+[Info  - 4:17:28 PM] 2020/11/20 16:17:28 background refresh finished after 17.116595ms
+
+[Error - 4:18:18 PM] 2020/11/20 16:18:18 no signature help: cannot find an enclosing function
+	position={94 34}
+
+[Info  - 4:18:20 PM] 2020/11/20 16:18:20 background imports cache refresh starting
+
+[Info  - 4:18:20 PM] 2020/11/20 16:18:20 background refresh finished after 16.686252ms
+
+[Error - 4:18:29 PM] 2020/11/20 16:18:29 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:31:41: missing ',' in parameter list (and 2 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 4:18:30 PM] 2020/11/20 16:18:30 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:31:41: missing ',' in parameter list (and 2 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 4:18:31 PM] 2020/11/20 16:18:31 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:31:43: missing ',' in parameter list (and 2 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 4:18:31 PM] 2020/11/20 16:18:31 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:31:44: missing ',' in parameter list (and 2 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 4:18:32 PM] 2020/11/20 16:18:32 no signature help: cannot find an enclosing function
+	position={30 40}
+
+[Info  - 4:18:50 PM] 2020/11/20 16:18:50 background imports cache refresh starting
+
+[Info  - 4:18:50 PM] 2020/11/20 16:18:50 background refresh finished after 18.291731ms
+
+[Info  - 4:19:20 PM] 2020/11/20 16:19:20 background imports cache refresh starting
+
+[Info  - 4:19:20 PM] 2020/11/20 16:19:20 background refresh finished after 17.734534ms
+
+[Info  - 4:19:51 PM] 2020/11/20 16:19:51 background imports cache refresh starting
+
+[Info  - 4:19:51 PM] 2020/11/20 16:19:51 background refresh finished after 17.482828ms
+
+[Error - 4:20:20 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:20:20 PM] 2020/11/20 16:20:20 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:63:50: expected operand, found ',' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:20:20 PM] 2020/11/20 16:20:20 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Info  - 4:20:23 PM] 2020/11/20 16:20:23 background imports cache refresh starting
+
+[Info  - 4:20:23 PM] 2020/11/20 16:20:23 background refresh finished after 44.300679ms
+
+[Error - 4:20:25 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:20:25 PM] 2020/11/20 16:20:25 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:20:28 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:20:28 PM] 2020/11/20 16:20:28 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:50: expected operand, found ',' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:20:28 PM] 2020/11/20 16:20:28 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:20:29 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:20:29 PM] 2020/11/20 16:20:29 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:20:30 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:20:30 PM] 2020/11/20 16:20:30 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:20:31 PM] 2020/11/20 16:20:31 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:20:32 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:20:32 PM] 2020/11/20 16:20:32 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:50: expected operand, found ',' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:20:32 PM] 2020/11/20 16:20:32 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:20:35 PM] 2020/11/20 16:20:35 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:50: expected operand, found ',' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:20:36 PM] 2020/11/20 16:20:36 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:50: expected operand, found ',' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Info  - 4:20:58 PM] 2020/11/20 16:20:58 background imports cache refresh starting
+
+[Info  - 4:20:58 PM] 2020/11/20 16:20:58 background refresh finished after 17.758842ms
+
+[Error - 4:21:15 PM] 2020/11/20 16:21:15 no signature help: no signature help within a function declaration
+	position={62 5}
+
+[Error - 4:21:22 PM] 2020/11/20 16:21:22 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:67:2: expected boolean expression, found assignment (missing parentheses around composite literal?) (and 3 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:21:22 PM] 2020/11/20 16:21:22 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:21:22 PM] 2020/11/20 16:21:22 no signature help: no signature help within a function declaration
+	position={63 4}
+
+[Error - 4:21:22 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:21:23 PM] 2020/11/20 16:21:23 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:5: expected operand, found ')' (and 8 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:21:23 PM] 2020/11/20 16:21:23 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:21:23 PM] 2020/11/20 16:21:23 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:65:2: expected boolean expression, found assignment (missing parentheses around composite literal?) (and 3 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:21:23 PM] 2020/11/20 16:21:23 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:21:24 PM] 2020/11/20 16:21:24 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:65:2: expected boolean expression, found assignment (missing parentheses around composite literal?) (and 3 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:21:24 PM] 2020/11/20 16:21:24 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:21:25 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:21:25 PM] 2020/11/20 16:21:25 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:9: expected ')', found '!' (and 7 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:21:25 PM] 2020/11/20 16:21:25 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:21:25 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:21:26 PM] 2020/11/20 16:21:26 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:12: expected operand, found ')' (and 8 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:21:26 PM] 2020/11/20 16:21:26 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:21:27 PM] 2020/11/20 16:21:27 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:65:2: expected boolean expression, found assignment (missing parentheses around composite literal?) (and 3 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:21:27 PM] 2020/11/20 16:21:27 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:21:27 PM] 2020/11/20 16:21:27 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:21:27 PM] 2020/11/20 16:21:27 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:65:2: expected boolean expression, found assignment (missing parentheses around composite literal?) (and 3 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Info  - 4:21:30 PM] 2020/11/20 16:21:30 background imports cache refresh starting
+
+[Info  - 4:21:30 PM] 2020/11/20 16:21:30 background refresh finished after 17.00536ms
+
+[Error - 4:21:34 PM] 2020/11/20 16:21:34 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:14: expected statement, found ')' (and 2 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:21:34 PM] 2020/11/20 16:21:34 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:21:35 PM] 2020/11/20 16:21:35 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:15: expected ';', found ')'
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:21:36 PM] 2020/11/20 16:21:36 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:64:15: expected ';', found ')'
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Info  - 4:22:01 PM] 2020/11/20 16:22:01 background imports cache refresh starting
+
+[Info  - 4:22:01 PM] 2020/11/20 16:22:01 background refresh finished after 17.605877ms
+
+[Error - 4:22:10 PM] 2020/11/20 16:22:10 no completions found: this is a definition of var errr error
+	position={62 11}
+
+[Error - 4:22:20 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:22:20 PM] 2020/11/20 16:22:20 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:71:34: expected operand, found ']' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:22:20 PM] 2020/11/20 16:22:20 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:22:21 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:22:21 PM] 2020/11/20 16:22:21 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:71:34: expected operand, found ',' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:22:21 PM] 2020/11/20 16:22:21 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/controllers/bookController.go
+
+[Error - 4:22:26 PM] 2020/11/20 16:22:26 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:71:34: expected operand, found ',' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:22:26 PM] 2020/11/20 16:22:26 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:71:34: expected operand, found ',' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Error - 4:22:27 PM] 2020/11/20 16:22:27 imports fixes: AllImportsFixes: /root/go/src/city/controllers/bookController.go:71:34: expected operand, found ',' (and 11 more errors)
+	file="/root/go/src/city/controllers/bookController.go"
+
+[Info  - 4:22:31 PM] 2020/11/20 16:22:31 background imports cache refresh starting
+
+[Info  - 4:22:31 PM] 2020/11/20 16:22:31 background refresh finished after 19.309269ms
+
+[Info  - 4:23:02 PM] 2020/11/20 16:23:02 background imports cache refresh starting
+
+[Info  - 4:23:02 PM] 2020/11/20 16:23:02 background refresh finished after 38.575622ms
+
+[Info  - 4:23:32 PM] 2020/11/20 16:23:32 background imports cache refresh starting
+
+[Info  - 4:23:32 PM] 2020/11/20 16:23:32 background refresh finished after 17.30231ms
+
+[Error - 4:24:29 PM] Request textDocument/definition failed.
+  Message: no object found for ident UpdateBook: no object found
+  Code: 0 
+[Error - 4:24:30 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 4:25:01 PM] 2020/11/20 16:25:01 background imports cache refresh starting
+
+[Info  - 4:25:01 PM] 2020/11/20 16:25:01 background refresh finished after 18.181384ms
+
+[Info  - 4:25:36 PM] 2020/11/20 16:25:36 background imports cache refresh starting
+
+[Info  - 4:25:36 PM] 2020/11/20 16:25:36 background refresh finished after 43.155843ms
+
+[Error - 4:29:58 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:29:58 PM] 2020/11/20 16:29:58 imports fixes: AllImportsFixes: /root/go/src/city/models/book.go:97:21: expected operand, found ')' (and 19 more errors)
+	file="/root/go/src/city/models/book.go"
+
+[Error - 4:29:58 PM] 2020/11/20 16:29:58 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/models/book.go
+
+[Error - 4:30:10 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 4:30:13 PM] 2020/11/20 16:30:13 background imports cache refresh starting
+
+[Info  - 4:30:13 PM] 2020/11/20 16:30:13 background refresh finished after 13.713762ms
+
+[Error - 4:30:16 PM] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 4:30:16 PM] 2020/11/20 16:30:16 imports fixes: AllImportsFixes: /root/go/src/city/models/stock.go:33:21: expected operand, found ')' (and 19 more errors)
+	file="/root/go/src/city/models/stock.go"
+
+[Error - 4:30:16 PM] 2020/11/20 16:30:16 DocumentSymbols failed: invalid pos
+	URI=file:///root/go/src/city/models/stock.go
+
+[Info  - 4:30:44 PM] 2020/11/20 16:30:44 background imports cache refresh starting
+
+[Info  - 4:30:44 PM] 2020/11/20 16:30:44 background refresh finished after 16.90656ms
+
+[Info  - 4:31:51 PM] 2020/11/20 16:31:51 background imports cache refresh starting
+
+[Info  - 4:31:51 PM] 2020/11/20 16:31:51 background refresh finished after 17.238678ms
+
+[Info  - 4:32:45 PM] 2020/11/20 16:32:45 background imports cache refresh starting
+
+[Info  - 4:32:45 PM] 2020/11/20 16:32:45 background refresh finished after 35.203591ms
+
+[Info  - 4:34:03 PM] 2020/11/20 16:34:03 background imports cache refresh starting
+
+[Info  - 4:34:03 PM] 2020/11/20 16:34:03 background refresh finished after 36.813805ms
+
+[Error - 4:38:43 PM] 2020/11/20 16:38:43 imports fixes: AllImportsFixes: /root/go/src/city/models/book.go:97:1: expected 'IDENT', found 'func' (and 2 more errors)
+	file="/root/go/src/city/models/book.go"
+
+[Error - 4:38:46 PM] 2020/11/20 16:38:46 no completions found: this is a definition of func F(_ invalid type, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Books)
+	position={94 6}
+
+[Error - 4:38:47 PM] 2020/11/20 16:38:47 imports fixes: AllImportsFixes: /root/go/src/city/models/book.go:95:7: expected '(', found newline (and 2 more errors)
+	file="/root/go/src/city/models/book.go"
+
+[Error - 4:38:47 PM] 2020/11/20 16:38:47 imports fixes: AllImportsFixes: /root/go/src/city/models/book.go:95:10: expected '(', found newline (and 2 more errors)
+	file="/root/go/src/city/models/book.go"
+
+[Error - 4:38:48 PM] 2020/11/20 16:38:48 no completions found: this is a definition of func FindB(_ invalid type, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Books)
+	position={94 10}
+
+[Error - 4:38:48 PM] 2020/11/20 16:38:48 no completions found: this is a definition of func FindBy(_ invalid type, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Books)
+	position={94 11}
+
+[Error - 4:38:48 PM] 2020/11/20 16:38:48 imports fixes: AllImportsFixes: /root/go/src/city/models/book.go:95:12: expected '(', found newline (and 2 more errors)
+	file="/root/go/src/city/models/book.go"
+
+[Error - 4:38:49 PM] 2020/11/20 16:38:49 no completions found: this is a definition of func FindByI(_ invalid type, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Books)
+	position={94 12}
+
+[Error - 4:38:49 PM] 2020/11/20 16:38:49 no completions found: this is a definition of func FindByID(_ invalid type, mydb *github.com/jinzhu/gorm.DB) (map[string]interface{}, *Books)
+	position={94 13}
+
+[Error - 4:38:49 PM] 2020/11/20 16:38:49 imports fixes: AllImportsFixes: /root/go/src/city/models/book.go:95:14: expected '(', found newline (and 2 more errors)
+	file="/root/go/src/city/models/book.go"
+
+[Error - 4:38:51 PM] 2020/11/20 16:38:51 no signature help: cannot find an enclosing function
+	position={94 14}
+
+[Info  - 4:39:13 PM] 2020/11/20 16:39:13 background imports cache refresh starting
+
+[Info  - 4:39:13 PM] 2020/11/20 16:39:13 background refresh finished after 50.523192ms
+
+[Info  - 4:39:43 PM] 2020/11/20 16:39:43 background imports cache refresh starting
+
+[Info  - 4:39:43 PM] 2020/11/20 16:39:43 background refresh finished after 16.030865ms
+
+[Error - 4:40:23 PM] 2020/11/20 16:40:23 no signature help: cannot find an enclosing function
+	position={106 35}
+
+[Info  - 4:40:30 PM] 2020/11/20 16:40:30 background imports cache refresh starting
+
+[Info  - 4:40:30 PM] 2020/11/20 16:40:30 background refresh finished after 15.282145ms
+
+[Info  - 4:44:13 PM] 2020/11/20 16:44:13 background imports cache refresh starting
+
+[Info  - 4:44:13 PM] 2020/11/20 16:44:13 background refresh finished after 16.479373ms
+
+[Info  - 4:45:48 PM] 2020/11/20 16:45:48 background imports cache refresh starting
+
+[Info  - 4:45:48 PM] 2020/11/20 16:45:48 background refresh finished after 46.943266ms
+
+[Error - 4:45:54 PM] 2020/11/20 16:45:54 imports fixes: AllImportsFixes: /root/go/src/city/models/book.go:108:2: expected identifier on left side of :=
+	file="/root/go/src/city/models/book.go"
+
+[Error - 4:45:59 PM] 2020/11/20 16:45:59 no signature help: cannot find an enclosing function
+	position={106 17}
+
+[Info  - 4:46:20 PM] 2020/11/20 16:46:20 background imports cache refresh starting
+
+[Info  - 4:46:20 PM] 2020/11/20 16:46:20 background refresh finished after 13.941954ms
+
+[Info  - 4:47:09 PM] 2020/11/20 16:47:09 background imports cache refresh starting
+
+[Info  - 4:47:09 PM] 2020/11/20 16:47:09 background refresh finished after 51.997853ms
+
+[Info  - 4:47:49 PM] 2020/11/20 16:47:49 background imports cache refresh starting
+
+[Info  - 4:47:49 PM] 2020/11/20 16:47:49 background refresh finished after 52.132147ms
+
+[Info  - 4:48:28 PM] 2020/11/20 16:48:28 background imports cache refresh starting
+
+[Info  - 4:48:28 PM] 2020/11/20 16:48:28 background refresh finished after 17.421284ms
+
+[Info  - 4:49:01 PM] 2020/11/20 16:49:01 background imports cache refresh starting
+
+[Info  - 4:49:01 PM] 2020/11/20 16:49:01 background refresh finished after 17.407012ms
+
+[Info  - 4:49:40 PM] 2020/11/20 16:49:40 background imports cache refresh starting
+
+[Info  - 4:49:40 PM] 2020/11/20 16:49:40 background refresh finished after 46.59244ms
+
+[Error - 4:50:17 PM] 2020/11/20 16:50:17 imports fixes: AllImportsFixes: /root/go/src/city/models/book.go:107:2: expected identifier on left side of :=
+	file="/root/go/src/city/models/book.go"
+
+[Info  - 4:50:17 PM] 2020/11/20 16:50:17 background imports cache refresh starting
+
+[Info  - 4:50:17 PM] 2020/11/20 16:50:17 background refresh finished after 17.234467ms
+
+[Info  - 4:50:49 PM] 2020/11/20 16:50:49 background imports cache refresh starting
+
+[Info  - 4:50:49 PM] 2020/11/20 16:50:49 background refresh finished after 44.615237ms
+
+[Info  - 4:51:20 PM] 2020/11/20 16:51:20 background imports cache refresh starting
+
+[Info  - 4:51:20 PM] 2020/11/20 16:51:20 background refresh finished after 13.530361ms
+
+[Info  - 4:52:17 PM] 2020/11/20 16:52:17 background imports cache refresh starting
+
+[Info  - 4:52:17 PM] 2020/11/20 16:52:17 background refresh finished after 22.786027ms
+
+[Info  - 4:52:48 PM] 2020/11/20 16:52:48 background imports cache refresh starting
+
+[Info  - 4:52:48 PM] 2020/11/20 16:52:48 background refresh finished after 13.332081ms
+
+[Info  - 4:53:18 PM] 2020/11/20 16:53:18 background imports cache refresh starting
+
+[Info  - 4:53:18 PM] 2020/11/20 16:53:18 background refresh finished after 15.683888ms
+
+[Info  - 4:54:30 PM] 2020/11/20 16:54:30 background imports cache refresh starting
+
+[Info  - 4:54:30 PM] 2020/11/20 16:54:30 background refresh finished after 48.117078ms
+

@@ -31,3 +31,21 @@ var UserLoginController = func(w http.ResponseWriter, r *http.Request) {
 	}
 
 }
+
+var CreateUser = func(w http.ResponseWriter, r *http.Request) {
+	Input := &models.Users{}
+
+	db := d.GetDB()
+	err := json.NewDecoder(r.Body).Decode(Input)
+	if err != nil {
+		fmt.Print(err)
+	}
+
+	data, insertedData := Input.CreatUser(db)
+
+	data["data"] = insertedData
+
+	db.Close()
+
+	u.Respond(w, data)
+}

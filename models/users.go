@@ -226,3 +226,17 @@ func StoreToRedistWithExpired(key string, val interface{}, duration string) erro
 
 	return err
 }
+
+func (user *Users) CreatUser(mydb *gorm.DB) (map[string]interface{}, *Users) {
+
+	err := mydb.Table("usr").Create(&user).Error
+	if err != nil {
+		fmt.Println(err)
+		return nil, nil
+	}
+
+	resp := u.Message(true, "success")
+	resp["data"] = user
+
+	return resp, user
+}

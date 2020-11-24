@@ -240,3 +240,17 @@ func (user *Users) CreatUser(mydb *gorm.DB) (map[string]interface{}, *Users) {
 
 	return resp, user
 }
+
+func (user *Users) UpdateUser(id int, mydb *gorm.DB) (map[string]interface{}, *Users) {
+
+	err := mydb.Table("usr").Where("id = ?", id).Update(user).Error
+	if err != nil {
+		fmt.Println(err)
+		return nil, nil
+	}
+
+	resp := u.Message(true, "success")
+	resp["data"] = user
+
+	return resp, user
+}

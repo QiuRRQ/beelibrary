@@ -38,6 +38,36 @@ var BorrowC = func(w http.ResponseWriter, r *http.Request) {
 	u.Respond(w, data)
 }
 
+var ReturningC = func(w http.ResponseWriter, r *http.Request) {
+	Inputborrow := &models.InputBorrowd{}
+	params := mux.Vars(r)
+	id := (params["id"])
+	Return_id, errr := strconv.Atoi(id)
+	if errr != nil {
+		fmt.Println(errr)
+	}
+
+	db := d.GetDB()
+	err := json.NewDecoder(r.Body).Decode(Inputborrow)
+	if err != nil {
+		fmt.Print(err)
+	}
+
+	data, insertedData := Inputborrow.BorrowCard.UpdateBorrowing(Return_id, db)
+
+	for _, e := range Inputborrow.BorrowdBook {
+		e.Borrow_id = insertedData.Id
+
+		stock := d.CheckStockByID(e.Book_id, db)
+		stock.Qty = stock.Qty + e.Qty
+		stock.UpdateStock(e.Book_id, db)
+	}
+
+	db.Close()
+
+	u.Respond(w, data)
+}
+
 //get detail peminjaman
 var BorrowDetail = func(w http.ResponseWriter, r *http.Request) {
 	db := d.GetDB()
@@ -68,7 +98,6 @@ var Borrowing = func(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 	data := d.GetBorrowByUser(Usr_id, db)
-	fmt.Println(data)
 	db.Close()
 
 	resp := u.Message(true, "success")

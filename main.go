@@ -21,9 +21,15 @@ func main() {
 
 	router.HandleFunc("/api/newestbook", controllers.GetNewestBook).Methods("GET")
 	router.HandleFunc("/api/book/{id}", controllers.GetBookByID).Methods("GET")
+	router.HandleFunc("/api/book", controllers.CreateBook).Methods("POST")
+	router.HandleFunc("/api/book/{id}", controllers.UpdateBook).Methods("PUT")
 	router.HandleFunc("/api/borrow/{id}", controllers.BorrowDetail).Methods("GET")
 	router.HandleFunc("/api/borrow", controllers.BorrowC).Methods("POST")
+	router.HandleFunc("/api/borrow", controllers.Borrowing).Methods("GET")
 	router.HandleFunc("/api/user/login", controllers.UserLoginController).Methods("POST")
+	router.HandleFunc("/api/user", controllers.CreateUser).Methods("POST")
+	router.HandleFunc("/api/user/{id}", controllers.UpdateUser).Methods("PUT")
+	router.HandleFunc("/api/return/{id}", controllers.ReturningC).Methods("POST")
 	// router.Use(app.JwtAuthentication) //attach JWT auth middleware
 
 	port := os.Getenv("PORT") //Get port from .env file, we did not specify any port so this should return an empty string when tested locally

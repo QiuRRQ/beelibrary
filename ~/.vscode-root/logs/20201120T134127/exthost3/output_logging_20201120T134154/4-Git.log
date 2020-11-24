@@ -14,3 +14,1038 @@ Use '--' to separate paths from revisions, like this:
 > git show --textconv :models/borrow.go
 > git ls-files --stage -- /root/go/src/city/models/borrow.go
 > git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /root/go/src/city/models/borrow.go
+> git symbolic-ref --short HEAD
+> git cat-file -s 75fa7f63793d01d0193b4f7cd5a39232dd4666df
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git show --textconv :models/borrow.go
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/borrow.go
+> git ls-files --stage -- /root/go/src/city/models/borrow.go
+> git cat-file -s 75fa7f63793d01d0193b4f7cd5a39232dd4666df
+> git show --textconv :models/borrowd.go
+> git ls-files --stage -- /root/go/src/city/models/borrowd.go
+> git cat-file -s a47986171e34fab309727756f702c79ada50539e
+> git show --textconv :models/srep.go
+> git ls-files --stage -- /root/go/src/city/models/srep.go
+> git cat-file -s cb73af4e50177b19c2444fac1201ab0d91eba0e3
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :models/borrow.go
+> git ls-files --stage -- /root/go/src/city/models/borrow.go
+> git cat-file -s 75fa7f63793d01d0193b4f7cd5a39232dd4666df
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/users.go
+> git ls-files --stage -- /root/go/src/city/models/users.go
+> git cat-file -s ce30cd6f4c2f511dbace943fd23ea799e1d4cf49
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :models/users.go
+> git ls-files --stage -- /root/go/src/city/models/users.go
+> git cat-file -s ce30cd6f4c2f511dbace943fd23ea799e1d4cf49
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :utils/utils.go
+> git ls-files --stage -- /root/go/src/city/utils/utils.go
+> git cat-file -s f739d6ce70f6d2940c5d4c062632f152433771ce
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/users.go
+> git ls-files --stage -- /root/go/src/city/models/users.go
+> git cat-file -s ce30cd6f4c2f511dbace943fd23ea799e1d4cf49
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :models/users.go
+> git ls-files --stage -- /root/go/src/city/models/users.go
+> git cat-file -s ce30cd6f4c2f511dbace943fd23ea799e1d4cf49
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app/auth.go
+> git ls-files --stage -- /root/go/src/city/app/auth.go
+> git cat-file -s e21947bdc913d6b60867680a6543e6178eb827fe
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/users.go
+> git ls-files --stage -- /root/go/src/city/models/users.go
+> git cat-file -s ce30cd6f4c2f511dbace943fd23ea799e1d4cf49
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git show --textconv :models/users.go
+> git ls-files --stage -- /root/go/src/city/models/users.go
+> git cat-file -s ce30cd6f4c2f511dbace943fd23ea799e1d4cf49
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git show --textconv :models/users.go
+> git ls-files --stage -- /root/go/src/city/models/users.go
+> git cat-file -s ce30cd6f4c2f511dbace943fd23ea799e1d4cf49
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/stockController.go
+> git ls-files --stage -- /root/go/src/city/controllers/stockController.go
+> git cat-file -s df4d8c2802f7045ff4a52986f2aadd2c976c4097
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :controllers/stockController.go
+> git ls-files --stage -- /root/go/src/city/controllers/stockController.go
+> git cat-file -s df4d8c2802f7045ff4a52986f2aadd2c976c4097
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :controllers/stockController.go
+> git ls-files --stage -- /root/go/src/city/controllers/stockController.go
+> git cat-file -s df4d8c2802f7045ff4a52986f2aadd2c976c4097
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/stockController.go
+> git ls-files --stage -- /root/go/src/city/controllers/stockController.go
+> git cat-file -s df4d8c2802f7045ff4a52986f2aadd2c976c4097
+> git show --textconv :models/users.go
+> git ls-files --stage -- /root/go/src/city/models/users.go
+> git cat-file -s ce30cd6f4c2f511dbace943fd23ea799e1d4cf49
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :controllers/stockController.go
+> git ls-files --stage -- /root/go/src/city/controllers/stockController.go
+> git cat-file -s df4d8c2802f7045ff4a52986f2aadd2c976c4097
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git status -z -u
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :models/borrow.go
+> git ls-files --stage -- /root/go/src/city/models/borrow.go
+> git cat-file -s 75fa7f63793d01d0193b4f7cd5a39232dd4666df
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/stockController.go
+> git ls-files --stage -- /root/go/src/city/controllers/stockController.go
+> git cat-file -s df4d8c2802f7045ff4a52986f2aadd2c976c4097
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/borrow.go
+> git ls-files --stage -- /root/go/src/city/models/borrow.go
+> git cat-file -s 75fa7f63793d01d0193b4f7cd5a39232dd4666df
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/stockController.go
+> git ls-files --stage -- /root/go/src/city/controllers/stockController.go
+> git cat-file -s df4d8c2802f7045ff4a52986f2aadd2c976c4097
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/stockController.go
+> git ls-files --stage -- /root/go/src/city/controllers/stockController.go
+> git cat-file -s df4d8c2802f7045ff4a52986f2aadd2c976c4097
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :controllers/stockController.go
+> git ls-files --stage -- /root/go/src/city/controllers/stockController.go
+> git cat-file -s df4d8c2802f7045ff4a52986f2aadd2c976c4097
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/db_host.go
+> git ls-files --stage -- /root/go/src/city/models/db_host.go
+> git cat-file -s 4bf3ded6e5088fbceb890dd0ba48511faeaa28b7
+> git show --textconv :models/model.go
+> git ls-files --stage -- /root/go/src/city/models/model.go
+> git cat-file -s 16fd9ce8a964376fda345ecef27ba58fb6cc1f3d
+> git show --textconv :models/srep.go
+> git ls-files --stage -- /root/go/src/city/models/srep.go
+> git cat-file -s cb73af4e50177b19c2444fac1201ab0d91eba0e3
+> git show --textconv :models/model.go
+> git ls-files --stage -- /root/go/src/city/models/model.go
+> git cat-file -s 16fd9ce8a964376fda345ecef27ba58fb6cc1f3d
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :controllers/borrowController.go
+> git ls-files --stage -- /root/go/src/city/controllers/borrowController.go
+> git cat-file -s eb7b63dafe45750cc59e399654a43b369c0b21e7
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/usersController.go
+> git ls-files --stage -- /root/go/src/city/controllers/usersController.go
+> git cat-file -s 5099f43e881564d4f98a2c36e1b512c58ecb7dc5
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/cityController.go
+> git ls-files --stage -- /root/go/src/city/controllers/cityController.go
+> git cat-file -s a1a02e8b57b23fc42f17f4c1eb737a04f7a8a757
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/stock.go
+> git ls-files --stage -- /root/go/src/city/models/stock.go
+> git cat-file -s 3ad8711970222497f4903851fc2361f8fbd0813f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.go
+> git ls-files --stage -- /root/go/src/city/main.go
+> git cat-file -s a4d73c1f0abc71537fc343d5715c19d8ce25a646
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse release
+> git rev-parse --symbolic-full-name release@{u}
+> git rev-list --left-right release...refs/remotes/origin/release
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195
+> git show --textconv :controllers/bookController.go
+> git ls-files --stage -- /root/go/src/city/controllers/bookController.go
+> git cat-file -s b1333fe54277ce08472f51c8d77e196677af98b8
+> git show --textconv :models/book.go
+> git ls-files --stage -- /root/go/src/city/models/book.go
+> git cat-file -s 73f4e4930752c52b0ea2b13549bfc4f8cd011195

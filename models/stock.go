@@ -16,7 +16,7 @@ type Stock struct {
 
 func (stock *Stock) CreatStock(mydb *gorm.DB) (map[string]interface{}, *Stock) {
 
-	err := mydb.Table("stock").Create(&stock).Error
+	err := mydb.Table("stocks").Create(&stock).Error
 	if err != nil {
 		fmt.Println(err)
 		return nil, nil
@@ -30,7 +30,7 @@ func (stock *Stock) CreatStock(mydb *gorm.DB) (map[string]interface{}, *Stock) {
 
 func (stock *Stock) UpdateStock(id int, mydb *gorm.DB) (map[string]interface{}, *Stock) {
 
-	err := mydb.Table("stock").Where("book_id = ?", id).Update(stock).Error
+	err := mydb.Table("stocks").Where("book_id = ?", id).Update(stock).Error
 	if err != nil {
 		fmt.Println(err)
 		return nil, nil
@@ -44,7 +44,7 @@ func (stock *Stock) UpdateStock(id int, mydb *gorm.DB) (map[string]interface{}, 
 
 func CheckStockByID(id int, mydb *gorm.DB) *Stock {
 	stock := &Stock{}
-	err := mydb.Table("stock").Where("book_id = ?", id).First(stock).Error
+	err := mydb.Table("stocks").Where("book_id = ?", id).First(stock).Error
 	if err != nil {
 		return nil
 	}

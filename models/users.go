@@ -66,7 +66,7 @@ func (user *Users) Login(email, password string, mydb *gorm.DB) UserLogin {
 		}
 	}
 	foundUser := &Users{}
-	err := mydb.Table("usr").Where("email = ? AND password = ?", email, password).First(foundUser).Error
+	err := mydb.Table("users").Where("email = ? AND password = ?", email, password).First(foundUser).Error
 	if err != nil {
 		fmt.Println(err)
 		return UserLogin{
@@ -229,7 +229,7 @@ func StoreToRedistWithExpired(key string, val interface{}, duration string) erro
 
 func (user *Users) CreatUser(mydb *gorm.DB) (map[string]interface{}, *Users) {
 
-	err := mydb.Table("usr").Create(&user).Error
+	err := mydb.Table("users").Create(&user).Error
 	if err != nil {
 		fmt.Println(err)
 		return nil, nil
@@ -243,7 +243,7 @@ func (user *Users) CreatUser(mydb *gorm.DB) (map[string]interface{}, *Users) {
 
 func (user *Users) UpdateUser(id int, mydb *gorm.DB) (map[string]interface{}, *Users) {
 
-	err := mydb.Table("usr").Where("id = ?", id).Update(user).Error
+	err := mydb.Table("users").Where("id = ?", id).Update(user).Error
 	if err != nil {
 		fmt.Println(err)
 		return nil, nil

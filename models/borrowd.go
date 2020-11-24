@@ -18,7 +18,7 @@ type Borrowd struct {
 
 func (borrowd *Borrowd) Borrowed(mydb *gorm.DB) map[string]interface{} {
 
-	err := GetDB().Table("borrowd").Create(&borrowd).Error
+	err := GetDB().Table("borrowds").Create(&borrowd).Error
 	if err != nil {
 		fmt.Println(err)
 		return nil

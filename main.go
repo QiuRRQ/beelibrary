@@ -2,6 +2,7 @@ package main
 
 import (
 	"city/controllers"
+	d "city/models"
 	"fmt"
 	"net/http"
 	"os"
@@ -10,6 +11,11 @@ import (
 )
 
 func main() {
+
+	db := d.GetDB()
+
+	db.AutoMigrate(&d.Users{}, &d.Stock{}, &d.Borrowd{}, &d.Borrow{}, &d.Books{})
+	db.Close()
 
 	router := mux.NewRouter()
 	router.HandleFunc("/api/city/{id}", controllers.GetCity).Methods("GET")
@@ -43,4 +49,5 @@ func main() {
 	if err != nil {
 		fmt.Print(err)
 	}
+
 }

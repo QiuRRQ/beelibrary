@@ -65,6 +65,20 @@ func (borrow *Borrow) Borrowing(borrowCard Borrow, mydb *gorm.DB) (map[string]in
 	return resp, borrow
 }
 
+func (borrow *Borrow) UpdateBorrowing(id int, mydb *gorm.DB) (map[string]interface{}, *Borrow) {
+
+	err := mydb.Table("borrow").Where("id = ?", id).Update(borrow).Error
+	if err != nil {
+		fmt.Println(err)
+		return nil, nil
+	}
+
+	resp := u.Message(true, "success")
+	resp["data"] = borrow
+
+	return resp, borrow
+}
+
 //detail book
 func GetBorrowByID(id int, mydb *gorm.DB) *DetailsBorrow {
 	borrow := &Borrow{}
@@ -122,26 +136,26 @@ func GetBorrowByUser(id int, mydb *gorm.DB) []DetailsBorrow {
 	}
 
 	var res []DetailsBorrow
-
+	var thisBook []BorrowdBook
 	mydb.Table("borrowd").Select("*").Joins("join book on book.id = borrowd.book_id").Joins("join borrow on borrow.id = borrowd.borrow_id").Where("borrow.usr_id = ?", id).Scan(&borrowdBook)
 
+	fmt.Println(borrowdBook)
+	var i int = 1
 	for _, e := range borrows {
+		thisBook = nil
 		for _, k := range borrowdBook {
-			var thisBook []*BorrowdBook
+			i++
 			if e.Id == k.Borrow_id {
-				thisBook = append(thisBook, &BorrowdBook{
-					Borrow_id: k.Borrow_id,
-					Name:      k.Name,
-				})
-				fmt.Println("append here")
+				thisBook = append(thisBook, k)
 			} else {
-				fmt.Println(k.Name + k.Author)
-				fmt.Println(thisBook)
-				res = append(res, DetailsBorrow{
-					BorrowCard: *e,
-				})
+				break
 			}
 		}
+		fmt.Println(thisBook)
+		res = append(res, DetailsBorrow{
+			BorrowCard:    *e,
+			MyBorrowdBook: thisBook,
+		})
 
 	}
 

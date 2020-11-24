@@ -43,11 +43,11 @@ func GetNewestBook(pages string, perpage string, mydb *gorm.DB) []*Books {
 	return book
 }
 
-//buku terpopuler berdasarkan tanggal publish
+//buku terpopuler
 func GetPopularBook(pages string, perpage string, mydb *gorm.DB) []*Books {
 
 	book := make([]*Books, 0)
-	err := mydb.Table("book").Joins("join stock on book.id = stock.book_id").Order("date_pub ASC").Limit(perpage).Offset(pages).Find(&book).Error
+	err := mydb.Table("borrowd").Joins("book on borrowd.book_id = book.id").Order("date_pub ASC").Limit(perpage).Offset(pages).Find(&book).Error
 
 	if err != nil {
 		log.Fatal(err)

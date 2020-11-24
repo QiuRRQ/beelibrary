@@ -53,7 +53,7 @@ type BorrowdBook struct {
 
 func (borrow *Borrow) Borrowing(borrowCard Borrow, mydb *gorm.DB) (map[string]interface{}, *Borrow) {
 
-	err := mydb.Table("borrow").Create(&borrow).Error
+	err := mydb.Table("borrows").Create(&borrow).Error
 	if err != nil {
 		fmt.Println(err)
 		return nil, nil
@@ -67,7 +67,7 @@ func (borrow *Borrow) Borrowing(borrowCard Borrow, mydb *gorm.DB) (map[string]in
 
 func (borrow *Borrow) UpdateBorrowing(id int, mydb *gorm.DB) (map[string]interface{}, *Borrow) {
 
-	err := mydb.Table("borrow").Where("id = ?", id).Update(borrow).Error
+	err := mydb.Table("borrows").Where("id = ?", id).Update(borrow).Error
 	if err != nil {
 		fmt.Println(err)
 		return nil, nil
@@ -86,13 +86,13 @@ func GetBorrowByID(id int, mydb *gorm.DB) *DetailsBorrow {
 	var borrowdBook []BorrowdBook
 	// var books []Books
 	// var book Books
-	err := mydb.Table("borrow").Where("id = ?", id).First(borrow).Error
+	err := mydb.Table("borrows").Where("id = ?", id).First(borrow).Error
 	if err != nil {
 		fmt.Println(2)
 		return nil
 	}
 
-	mydb.Table("borrowd").Select("*").Joins("join book on book.id = borrowd.book_id").Where("borrowd.borrow_id = ?", id).Scan(&borrowdBook)
+	mydb.Table("borrowds").Select("*").Joins("join books on books.id = borrowds.book_id").Where("borrowds.borrow_id = ?", id).Scan(&borrowdBook)
 	// rows, errr := mydb.Table("borrowd").Select("*").Joins("join book on book.id = borrowd.book_id").Where("borrowd.borrow_id = ?", id).Rows()
 	// defer rows.Close()
 	// if errr != nil {
@@ -129,7 +129,7 @@ func GetBorrowByID(id int, mydb *gorm.DB) *DetailsBorrow {
 func GetBorrowByUser(id int, mydb *gorm.DB) []DetailsBorrow {
 	borrows := make([]*Borrow, 0)
 	var borrowdBook []BorrowdBook
-	err := mydb.Table("borrow").Where("usr_id = ?", id).Find(&borrows).Error
+	err := mydb.Table("borrows").Where("usr_id = ?", id).Find(&borrows).Error
 	if err != nil {
 		fmt.Println(2)
 		return nil
@@ -137,7 +137,7 @@ func GetBorrowByUser(id int, mydb *gorm.DB) []DetailsBorrow {
 
 	var res []DetailsBorrow
 	var thisBook []BorrowdBook
-	mydb.Table("borrowd").Select("*").Joins("join book on book.id = borrowd.book_id").Joins("join borrow on borrow.id = borrowd.borrow_id").Where("borrow.usr_id = ?", id).Scan(&borrowdBook)
+	mydb.Table("borrowds").Select("*").Joins("join books on books.id = borrowds.book_id").Joins("join borrows on borrows.id = borrowds.borrow_id").Where("borrows.usr_id = ?", id).Scan(&borrowdBook)
 
 	fmt.Println(borrowdBook)
 	var i int = 1

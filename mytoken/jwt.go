@@ -20,7 +20,7 @@ type CustomClaims struct {
 }
 
 func GetToken(session, userid, id string) (string, string, error) {
-	expirationTime := time.Now().Add(time.Duration(0) * time.Hour).Unix()
+	expirationTime := time.Now().Add(time.Duration(10) * time.Hour).Unix()
 	unixTimeUtc := time.Unix(expirationTime, 0)
 	unitTimeInRFC3339 := unixTimeUtc.UTC().Format(time.RFC3339)
 
@@ -34,7 +34,7 @@ func GetToken(session, userid, id string) (string, string, error) {
 	}
 
 	rawToken := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
-	token, err := rawToken.SignedString([]byte(""))
+	token, err := rawToken.SignedString([]byte("B33FR33"))
 
 	return token, unitTimeInRFC3339, err
 }
@@ -54,7 +54,7 @@ func GetRefreshToken(session, userid, id string) (string, string, error) {
 	}
 
 	rawToken := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
-	token, err := rawToken.SignedString([]byte(""))
+	token, err := rawToken.SignedString([]byte("B33FR33"))
 
 	return token, unitTimeInRFC3339, err
 }

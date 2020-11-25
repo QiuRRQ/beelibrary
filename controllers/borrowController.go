@@ -104,3 +104,40 @@ var Borrowing = func(w http.ResponseWriter, r *http.Request) {
 	resp["data"] = data
 	u.Respond(w, resp)
 }
+
+//get daftar pengembalian
+var Returning = func(w http.ResponseWriter, r *http.Request) {
+	db := d.GetDB()
+	query := r.URL.Query()
+	id := query.Get("usr_id")
+
+	Usr_id, err := strconv.Atoi(id)
+	if err != nil {
+		fmt.Println(err)
+	}
+	data := d.GetReturnByUser(Usr_id, db)
+	db.Close()
+
+	resp := u.Message(true, "success")
+	resp["data"] = data
+	u.Respond(w, resp)
+}
+
+//get detail pengembalian
+var ReturningDetail = func(w http.ResponseWriter, r *http.Request) {
+	db := d.GetDB()
+	params := mux.Vars(r)
+	id := (params["id"])
+
+	Borrow_id, err := strconv.Atoi(id)
+	if err != nil {
+		fmt.Println(err)
+	}
+	data := d.GetReturningByID(Borrow_id, db)
+	fmt.Println(data)
+	db.Close()
+
+	resp := u.Message(true, "success")
+	resp["data"] = data
+	u.Respond(w, resp)
+}

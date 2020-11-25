@@ -1,6 +1,7 @@
 package main
 
 import (
+	"city/app"
 	"city/controllers"
 	d "city/models"
 	"fmt"
@@ -26,6 +27,7 @@ func main() {
 	router.HandleFunc("/api/srep", controllers.CreateSrep).Methods("POST")
 
 	router.HandleFunc("/api/newestbook", controllers.GetNewestBook).Methods("GET")
+	router.HandleFunc("/api/popularbook", controllers.GetPopularBook).Methods("GET")
 	router.HandleFunc("/api/book/{id}", controllers.GetBookByID).Methods("GET")
 	router.HandleFunc("/api/book", controllers.CreateBook).Methods("POST")
 	router.HandleFunc("/api/book/{id}", controllers.UpdateBook).Methods("PUT")
@@ -36,7 +38,10 @@ func main() {
 	router.HandleFunc("/api/user", controllers.CreateUser).Methods("POST")
 	router.HandleFunc("/api/user/{id}", controllers.UpdateUser).Methods("PUT")
 	router.HandleFunc("/api/return/{id}", controllers.ReturningC).Methods("POST")
-	// router.Use(app.JwtAuthentication) //attach JWT auth middleware
+	router.HandleFunc("/api/return", controllers.Returning).Methods("GET")
+	router.HandleFunc("/api/return/{id}", controllers.ReturningDetail).Methods("GET")
+
+	router.Use(app.JwtAuthentication) //attach JWT auth middleware
 
 	port := os.Getenv("PORT") //Get port from .env file, we did not specify any port so this should return an empty string when tested locally
 	if port == "" {

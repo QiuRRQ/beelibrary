@@ -83,13 +83,24 @@ var GetPopularBook = func(w http.ResponseWriter, r *http.Request) {
 	query := r.URL.Query()
 	pages := query.Get("pages")
 	perpages := query.Get("perpages")
-	data := d.GetNewestBook(
+	data := d.GetPopularBook(
 		pages, perpages, db)
+
+	books := d.GetBooks(db)
+
+	var popularBooks []d.Books
+	for _, e := range data {
+		for _, j := range books {
+			if e.Id == j.Id {
+				popularBooks = append(popularBooks, *j)
+			}
+		}
+	}
 
 	db.Close()
 	resp := u.Message(true, "success")
 
-	resp["data"] = data
+	resp["data"] = popularBooks
 	u.Respond(w, resp)
 }
 

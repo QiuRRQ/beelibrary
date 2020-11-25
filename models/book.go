@@ -34,7 +34,7 @@ type BookDetail struct {
 func GetNewestBook(pages string, perpage string, mydb *gorm.DB) []*Books {
 
 	book := make([]*Books, 0)
-	err := mydb.Table("books").Joins("join stock on book.id = stock.book_id").Order("date_pub ASC").Limit(perpage).Offset(pages).Find(&book).Error
+	err := mydb.Table("books").Joins("join stocks on books.id = stocks.book_id").Order("date_pub ASC").Limit(perpage).Offset(pages).Find(&book).Error
 
 	if err != nil {
 		log.Fatal(err)
@@ -47,7 +47,18 @@ func GetNewestBook(pages string, perpage string, mydb *gorm.DB) []*Books {
 func GetPopularBook(pages string, perpage string, mydb *gorm.DB) []*Books {
 
 	book := make([]*Books, 0)
-	err := mydb.Table("borrowds").Joins("book on borrowd.book_id = book.id").Order("date_pub ASC").Limit(perpage).Offset(pages).Find(&book).Error
+	err := mydb.Table("books").Select("books.id, sum(borrowds.qty) as qty").Joins("join borrowds on borrowds.book_id = books.id").Group("books.id").Order("qty DESC").Limit(perpage).Offset(pages).Find(&book).Error
+	if err != nil {
+		log.Fatal(err)
+		return book
+	}
+	return book
+}
+
+//browse book
+func GetBooks(mydb *gorm.DB) []*Books {
+	book := make([]*Books, 0)
+	err := mydb.Table("books").Find(&book).Error
 
 	if err != nil {
 		log.Fatal(err)
@@ -60,12 +71,12 @@ func GetPopularBook(pages string, perpage string, mydb *gorm.DB) []*Books {
 func GetBooksByID(id int, mydb *gorm.DB) *BookDetail {
 	book := &Books{}
 	stock := &Stock{}
-	err := mydb.Table("books").Joins("join stock on book.id = stock.book_id").Where("book.id = ?", id).First(book).Error
+	err := mydb.Table("books").Joins("join stocks on books.id = stocks.book_id").Where("books.id = ?", id).First(book).Error
 	if err != nil {
 		return nil
 	}
 
-	err = mydb.Table("stocks").Joins("join book on book.id = stock.book_id").Where("book.id = ?", id).First(stock).Error
+	err = mydb.Table("stocks").Joins("join books on books.id = stocks.book_id").Where("books.id = ?", id).First(stock).Error
 	if err != nil {
 		return nil
 	}

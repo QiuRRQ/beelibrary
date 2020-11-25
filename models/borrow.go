@@ -79,7 +79,7 @@ func (borrow *Borrow) UpdateBorrowing(id int, mydb *gorm.DB) (map[string]interfa
 	return resp, borrow
 }
 
-//detail book
+//detail borrow
 func GetBorrowByID(id int, mydb *gorm.DB) *DetailsBorrow {
 	borrow := &Borrow{}
 	// var resa []BorrowdBook
@@ -129,7 +129,7 @@ func GetBorrowByID(id int, mydb *gorm.DB) *DetailsBorrow {
 func GetBorrowByUser(id int, mydb *gorm.DB) []DetailsBorrow {
 	borrows := make([]*Borrow, 0)
 	var borrowdBook []BorrowdBook
-	err := mydb.Table("borrows").Where("usr_id = ?", id).Find(&borrows).Error
+	err := mydb.Table("borrows").Where("status = 'peminjaman' and usr_id = ?", id).Find(&borrows).Error
 	if err != nil {
 		fmt.Println(2)
 		return nil
@@ -139,7 +139,6 @@ func GetBorrowByUser(id int, mydb *gorm.DB) []DetailsBorrow {
 	var thisBook []BorrowdBook
 	mydb.Table("borrowds").Select("*").Joins("join books on books.id = borrowds.book_id").Joins("join borrows on borrows.id = borrowds.borrow_id").Where("borrows.usr_id = ?", id).Scan(&borrowdBook)
 
-	fmt.Println(borrowdBook)
 	var i int = 1
 	for _, e := range borrows {
 		thisBook = nil
@@ -147,16 +146,68 @@ func GetBorrowByUser(id int, mydb *gorm.DB) []DetailsBorrow {
 			i++
 			if e.Id == k.Borrow_id {
 				thisBook = append(thisBook, k)
-			} else {
-				break
 			}
 		}
-		fmt.Println(thisBook)
 		res = append(res, DetailsBorrow{
 			BorrowCard:    *e,
 			MyBorrowdBook: thisBook,
 		})
 
+	}
+
+	return res
+}
+
+//get daftar pengembalian
+func GetReturnByUser(id int, mydb *gorm.DB) []DetailsBorrow {
+	borrows := make([]*Borrow, 0)
+	var borrowdBook []BorrowdBook
+	err := mydb.Table("borrows").Where("status = 'pengembalian' and usr_id = ?", id).Find(&borrows).Error
+	if err != nil {
+		fmt.Println(2)
+		return nil
+	}
+
+	var res []DetailsBorrow
+	var thisBook []BorrowdBook
+	mydb.Table("borrowds").Select("*").Joins("join books on books.id = borrowds.book_id").Joins("join borrows on borrows.id = borrowds.borrow_id").Where("borrows.usr_id = ?", id).Scan(&borrowdBook)
+
+	var i int = 1
+	for _, e := range borrows {
+		thisBook = nil
+		for _, k := range borrowdBook {
+			i++
+			if e.Id == k.Borrow_id {
+				thisBook = append(thisBook, k)
+			}
+		}
+		res = append(res, DetailsBorrow{
+			BorrowCard:    *e,
+			MyBorrowdBook: thisBook,
+		})
+
+	}
+
+	return res
+}
+
+//detail returning
+func GetReturningByID(id int, mydb *gorm.DB) *DetailsBorrow {
+	borrow := &Borrow{}
+
+	var borrowdBook []BorrowdBook
+
+	err := mydb.Table("borrows").Where("id = ?", id).First(borrow).Error
+	if err != nil {
+		fmt.Println(2)
+		return nil
+	}
+
+	mydb.Table("borrowds").Select("*").Joins("join books on books.id = borrowds.book_id").Where("borrowds.borrow_id = ?", id).Scan(&borrowdBook)
+
+	res := &DetailsBorrow{
+		BorrowCard:    *borrow,
+		MyBorrowdBook: borrowdBook,
 	}
 
 	return res
